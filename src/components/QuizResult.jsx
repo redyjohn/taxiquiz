@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import AdBanner from './AdBanner'
 import './QuizResult.css'
 
@@ -27,10 +28,35 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
     return '需要再加強'
   }
 
+  // 初始化原生廣告 - 使用 autorelaxed 格式讓原生廣告更好看
+  useEffect(() => {
+    const initNativeAd = () => {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (e) {
+        console.error('AdSense native ad error:', e)
+      }
+    }
+    
+    // 確保 AdSense 腳本已載入後再初始化
+    if (window.adsbygoogle) {
+      // 延遲初始化以確保 DOM 已渲染
+      setTimeout(initNativeAd, 100)
+    } else {
+      // 等待腳本載入完成
+      const checkInterval = setInterval(() => {
+        if (window.adsbygoogle) {
+          clearInterval(checkInterval)
+          setTimeout(initNativeAd, 100)
+        }
+      }, 100)
+      
+      setTimeout(() => clearInterval(checkInterval), 10000)
+    }
+  }, [])
+
   return (
     <div className="result-page">
-      <AdBanner position="horizontal" className="ad-header" />
-      
       <div className="result-container">
         <header className="result-header">
           <h1>測驗結果</h1>
@@ -109,6 +135,17 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
           </div>
         )}
 
+        {/* 結果頁中間原生廣告 */}
+        <div className="result-native-ad">
+          <ins 
+            className="adsbygoogle"
+            style={{ display: "block", textAlign: "center" }}
+            data-ad-format="autorelaxed"
+            data-ad-client="ca-pub-4218582490253078"
+            data-ad-slot="你的原生廣告ID"
+          />
+        </div>
+
         <div className="result-actions">
           {wrongQuestions.length > 0 && (
             <button 
@@ -127,7 +164,10 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
         </div>
       </div>
 
-      <AdBanner position="horizontal" className="ad-footer" />
+      {/* 結果頁最下方垂直廣告 */}
+      <div className="result-bottom-ad">
+        <AdBanner position="vertical" adSlot="你的300x250廣告ID" />
+      </div>
     </div>
   )
 }

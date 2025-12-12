@@ -4,26 +4,43 @@ import './AdBanner.css'
 function AdBanner({ position = 'horizontal', className = '', adSlot = '' }) {
   useEffect(() => {
     // 初始化 AdSense 廣告
-    try {
-      if (window.adsbygoogle && window.adsbygoogle.loaded !== true) {
-        (window.adsbygoogle = window.adsbygoogle || []).push({})
+    if (adSlot) {
+      const initAd = () => {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({})
+        } catch (e) {
+          console.error('AdSense error:', e)
+        }
       }
-    } catch (e) {
-      console.error('AdSense error:', e)
+      
+      // 確保 AdSense 腳本已載入
+      if (window.adsbygoogle) {
+        initAd()
+      } else {
+        // 等待腳本載入完成
+        const checkInterval = setInterval(() => {
+          if (window.adsbygoogle) {
+            clearInterval(checkInterval)
+            initAd()
+          }
+        }, 100)
+        
+        setTimeout(() => clearInterval(checkInterval), 10000)
+      }
     }
-  }, [])
+  }, [adSlot])
 
   // 根據位置設置廣告尺寸
   const getAdStyle = () => {
     switch (position) {
       case 'horizontal':
-        return { display: 'inline-block', width: '728px', height: '90px' }
+        return { display: 'inline-block', width: '970px', height: '90px' }
       case 'vertical':
         return { display: 'inline-block', width: '300px', height: '250px' }
       case 'square':
         return { display: 'inline-block', width: '300px', height: '300px' }
       default:
-        return { display: 'inline-block', width: '728px', height: '90px' }
+        return { display: 'inline-block', width: '970px', height: '90px' }
     }
   }
 

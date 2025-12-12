@@ -8,9 +8,29 @@
   padding: 2rem;
 }
 
-.quiz-page > .ad-header {
-  padding: 0;
-  margin: 0;
+.quiz-top-ad {
+  width: 100%;
+  max-width: 64rem;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.quiz-ad-banner {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.quiz-ad-banner:hover {
+  opacity: 1;
+}
+
+.quiz-ad-banner .ad-banner {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.quiz-ad-banner:hover .ad-banner {
+  opacity: 1;
 }
 
 .quiz-header {

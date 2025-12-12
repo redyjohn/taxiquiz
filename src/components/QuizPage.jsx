@@ -194,9 +194,15 @@ function QuizPage({ quizConfig, onBack }) {
         </div>
       </header>
 
-      <AdBanner position="horizontal" className="ad-header" />
-
       <div className="quiz-content">
+        {/* 答題頁最上方低調橫幅廣告 */}
+        <div className="quiz-top-ad">
+          <AdBanner 
+            position="horizontal" 
+            adSlot="你的970x90廣告ID" 
+            className="quiz-ad-banner"
+          />
+        </div>
         <div className="question-card">
           <div className="question-number">題目 {currentQuestion.id}</div>
           <h3 className="question-text">{currentQuestion.question}</h3>
