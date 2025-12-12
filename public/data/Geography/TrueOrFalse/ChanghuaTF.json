@@ -1,0 +1,505 @@
+[
+    {
+      "id": 1,
+      "question": "彰化縣政府位於彰化市中山路上。",
+      "correct_answer": true
+    },
+    {
+      "id": 2,
+      "question": "彰化縣地方法院位於彰化縣員林市員林大道2段1號。",
+      "correct_answer": true
+    },
+    {
+      "id": 3,
+      "question": "員林市公所位於員林市三民街。",
+      "correct_answer": true
+    },
+    {
+      "id": 4,
+      "question": "二水鄉公所位於二水鄉裕民村南通路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 5,
+      "question": "田中鎮公所位於田中鎮中山路。",
+      "correct_answer": false
+    },
+    {
+      "id": 6,
+      "question": "埔鹽鄉公所位於埔鹽鄉中正路。",
+      "correct_answer": true
+    },
+    {
+      "id": 7,
+      "question": "社頭鄉鄉公所位於社頭鄉社斗路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 8,
+      "question": "鹿港鎮鎮公所位於鹿港鎮民族路。",
+      "correct_answer": false
+    },
+    {
+      "id": 9,
+      "question": "彰化市公所位於彰化市光復路。",
+      "correct_answer": true
+    },
+    {
+      "id": 10,
+      "question": "北斗鎮公所位於北斗鎮斗苑路。",
+      "correct_answer": false
+    },
+    {
+      "id": 11,
+      "question": "和美鎮公所位於和美鎮鹿和路6段。",
+      "correct_answer": true
+    },
+    {
+      "id": 12,
+      "question": "鹿世界觀光牧場為全彰化地區鹿隻頭數最多的鹿場，位於永靖鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 13,
+      "question": "線西鄉公所位於線西鄉和線路。",
+      "correct_answer": true
+    },
+    {
+      "id": 14,
+      "question": "伸港鄉公所位於伸港鄉中興路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 15,
+      "question": "花壇鄉公所位於花壇鄉中央路。",
+      "correct_answer": false
+    },
+    {
+      "id": 16,
+      "question": "大村鄉公所位於大村鄉中正西路。",
+      "correct_answer": true
+    },
+    {
+      "id": 17,
+      "question": "芳苑鄉公所位於芳苑鄉斗苑路。",
+      "correct_answer": true
+    },
+    {
+      "id": 18,
+      "question": "王功的明顯標誌-芳苑燈塔，沿著省道台18線沿海路，遠遠就可以看到王功地標聳立。",
+      "correct_answer": false
+    },
+    {
+      "id": 19,
+      "question": "秀水鄉公所位於秀水鄉中山路。",
+      "correct_answer": true
+    },
+    {
+      "id": 20,
+      "question": "二林鎮公所位於二林鎮斗苑路4段。",
+      "correct_answer": true
+    },
+    {
+      "id": 21,
+      "question": "彰化市戶政所位於彰化市中興路。",
+      "correct_answer": true
+    },
+    {
+      "id": 22,
+      "question": "鹿港鎮戶政所位於鹿港鎮中山路。",
+      "correct_answer": true
+    },
+    {
+      "id": 23,
+      "question": "和美鎮戶政所位於和美鎮鹿和路6段。",
+      "correct_answer": true
+    },
+    {
+      "id": 24,
+      "question": "北斗鎮戶政所位於北斗鎮地政路。",
+      "correct_answer": true
+    },
+    {
+      "id": 25,
+      "question": "員林市戶政所位於員林市和平東街。",
+      "correct_answer": true
+    },
+    {
+      "id": 26,
+      "question": "線西鄉戶政所位於線西鄉中山路。",
+      "correct_answer": false
+    },
+    {
+      "id": 27,
+      "question": "溪湖鎮戶政所位於溪湖鎮員鹿路3段。",
+      "correct_answer": false
+    },
+    {
+      "id": 28,
+      "question": "田中鎮戶政所位於田中鎮員集路2段。",
+      "correct_answer": false
+    },
+    {
+      "id": 29,
+      "question": "二林鎮戶政所位於二林鎮斗苑路5段。",
+      "correct_answer": true
+    },
+    {
+      "id": 30,
+      "question": "伸港鄉戶政所位於伸港鄉新港路。",
+      "correct_answer": false
+    },
+    {
+      "id": 31,
+      "question": "福興鄉戶政所位於福興鄉彰鹿路7段。",
+      "correct_answer": true
+    },
+    {
+      "id": 32,
+      "question": "秀水鄉戶政所位於秀水鄉中山路。",
+      "correct_answer": true
+    },
+    {
+      "id": 33,
+      "question": "花壇鄉戶政所位於花壇鄉彰員路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 34,
+      "question": "芬園鄉戶政所位於芬園鄉彰南路4段。",
+      "correct_answer": true
+    },
+    {
+      "id": 35,
+      "question": "彰化縣員林戶政事務所大村辦公室位於大村鄉茄苳路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 36,
+      "question": "台灣玻璃館位於和美鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 37,
+      "question": "彰化縣溪湖戶政事務所-埔心辦公室位於埔心鄉員鹿路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 38,
+      "question": "彰化縣員林戶政事務所永靖辦公室位於永靖鄉永靖街。",
+      "correct_answer": true
+    },
+    {
+      "id": 39,
+      "question": "彰化縣田中戶政事務所社頭辦公室位於社頭鄉員集路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 40,
+      "question": "二水鄉戶政所位於二水鄉員鹿路3段。",
+      "correct_answer": false
+    },
+    {
+      "id": 41,
+      "question": "彰化縣北斗戶政事務所田尾辦公室位於田尾鄉光復路3段。",
+      "correct_answer": true
+    },
+    {
+      "id": 42,
+      "question": "彰化縣北斗戶政事務所埤頭辦公室位於埤頭鄉斗苑西路。",
+      "correct_answer": true
+    },
+    {
+      "id": 43,
+      "question": "芳苑鄉戶政所位於芳苑鄉斗苑路芳苑段。",
+      "correct_answer": true
+    },
+    {
+      "id": 44,
+      "question": "彰化縣二林戶政事務所大城辦公室位於大城鄉北平路。",
+      "correct_answer": true
+    },
+    {
+      "id": 45,
+      "question": "彰化縣二林戶政事務所竹塘辦公室位於竹塘鄉竹林路。",
+      "correct_answer": false
+    },
+    {
+      "id": 46,
+      "question": "彰化縣北斗戶政事務所溪州辦公室位於溪州鄉中山路3段。",
+      "correct_answer": true
+    },
+    {
+      "id": 47,
+      "question": "彰化地政事務所位於彰化市中山路。",
+      "correct_answer": false
+    },
+    {
+      "id": 48,
+      "question": "鹿港地政事務所位於鹿港鎮民權路。",
+      "correct_answer": true
+    },
+    {
+      "id": 49,
+      "question": "田中地政事務所位於田中鎮明慶街。",
+      "correct_answer": true
+    },
+    {
+      "id": 50,
+      "question": "溪湖地政事務所位於溪湖鎮大公路。",
+      "correct_answer": true
+    }
+  ,
+    
+    {
+      "id": 51,
+      "question": "員林地政事務所位於員林市大同路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 52,
+      "question": "二林地政事務所位於二林鎮斗苑路4段。",
+      "correct_answer": true
+    },
+    {
+      "id": 53,
+      "question": "和美地政事務所位於和美鎮德美路。",
+      "correct_answer": true
+    },
+    {
+      "id": 54,
+      "question": "北斗地政事務所位於北斗鎮地政路。",
+      "correct_answer": true
+    },
+    {
+      "id": 55,
+      "question": "彰化縣警察局位於彰化市中正路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 56,
+      "question": "彰化警分局位於彰化市民生路。",
+      "correct_answer": true
+    },
+    {
+      "id": 57,
+      "question": "員林警分局位於員林市中山路。",
+      "correct_answer": false
+    },
+    {
+      "id": 58,
+      "question": "鹿港警分局位於鹿港鎮中山路。",
+      "correct_answer": false
+    },
+    {
+      "id": 59,
+      "question": "溪湖警分局位於溪湖鎮員鹿路3段。",
+      "correct_answer": false
+    },
+    {
+      "id": 60,
+      "question": "和美警分局位於和美鎮道周路。",
+      "correct_answer": false
+    },
+    {
+      "id": 61,
+      "question": "北斗警分局位於北斗鎮光復路。",
+      "correct_answer": true
+    },
+    {
+      "id": 62,
+      "question": "芳苑警分局位於芳苑鄉斗苑路三合段。",
+      "correct_answer": true
+    },
+    {
+      "id": 63,
+      "question": "田中警分局位於田中鎮興酪路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 64,
+      "question": "衛生福利部彰化醫院位於埔心鄉中正路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 65,
+      "question": "彰化基督教醫院總院位於彰化市南校街。",
+      "correct_answer": true
+    },
+    {
+      "id": 66,
+      "question": "彰化基督教醫院二林分院位於二林鎮大成路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 67,
+      "question": "彰化基督教醫院鹿基分院位於鹿港鎮中正路。",
+      "correct_answer": true
+    },
+    {
+      "id": 68,
+      "question": "彰化秀傳紀念醫院位於彰化市中正路1段。",
+      "correct_answer": false
+    },
+    {
+      "id": 69,
+      "question": "彰化彰濱秀傳紀念醫院位於鹿港鎮鹿工路。",
+      "correct_answer": true
+    },
+    {
+      "id": 70,
+      "question": "員林市員榮綜合醫院位於員林市中正路。",
+      "correct_answer": true
+    },
+    {
+      "id": 71,
+      "question": "員林市員生醫院位於員林市莒光路。",
+      "correct_answer": true
+    },
+    {
+      "id": 72,
+      "question": "彰化中央健康保險局位於彰化市中華西路。",
+      "correct_answer": true
+    },
+    {
+      "id": 73,
+      "question": "彰化自來水廠位於彰化市公園路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 74,
+      "question": "彰化勞工保險局位於彰化市公園路1段。",
+      "correct_answer": true
+    },
+    {
+      "id": 75,
+      "question": "彰化縣體育場位於彰化市健興路。",
+      "correct_answer": true
+    },
+    {
+      "id": 76,
+      "question": "彰化地方法院位於員林市中山路2段。",
+      "correct_answer": false
+    },
+    {
+      "id": 77,
+      "question": "彰化簡易法庭位於和美鎮東萊路。",
+      "correct_answer": true
+    },
+    {
+      "id": 78,
+      "question": "員林簡易法庭位於員林市中正路。",
+      "correct_answer": true
+    },
+    {
+      "id": 79,
+      "question": "北斗簡易法庭位於田尾鄉建平路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 80,
+      "question": "彰化縣消防局位於彰化市中央路。",
+      "correct_answer": true
+    },
+    {
+      "id": 81,
+      "question": "彰化縣地方稅務局位於彰化市中正路。",
+      "correct_answer": false
+    },
+    {
+      "id": 82,
+      "question": "彰化縣地方稅務局員林分局位於員林市惠明街。",
+      "correct_answer": true
+    },
+    {
+      "id": 83,
+      "question": "彰化縣地方稅務局北斗分局位於北斗鎮光復路。",
+      "correct_answer": true
+    },
+    {
+      "id": 84,
+      "question": "彰化縣衛生局位於彰化市中山路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 85,
+      "question": "彰化市南西北區衛生所位於彰化市中山路2段。",
+      "correct_answer": false
+    },
+    {
+      "id": 86,
+      "question": "彰化市東區衛生所位於彰化市彰南路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 87,
+      "question": "花壇鄉衛生所位於花壇鄉中正路。",
+      "correct_answer": true
+    },
+    {
+      "id": 88,
+      "question": "芬園鄉衛生所位於芬園鄉公園一街。",
+      "correct_answer": true
+    },
+    {
+      "id": 89,
+      "question": "大村鄉衛生所位於大村鄉中正西路。",
+      "correct_answer": true
+    },
+    {
+      "id": 90,
+      "question": "員林鎮衛生所位於員林市中正街。",
+      "correct_answer": false
+    },
+    {
+      "id": 91,
+      "question": "埔心鄉衛生所位於埔心鄉員鹿路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 92,
+      "question": "永靖鄉衛生所位於永靖鄉中正路。",
+      "correct_answer": false
+    },
+    {
+      "id": 93,
+      "question": "社頭鄉衛生所位於社頭鄉員集路2段。",
+      "correct_answer": true
+    },
+    {
+      "id": 94,
+      "question": "田尾鄉衛生所位於田尾鄉光復路二段。",
+      "correct_answer": true
+    },
+    {
+      "id": 95,
+      "question": "北斗鎮衛生所位於北斗鎮地政路。",
+      "correct_answer": true
+    },
+    {
+      "id": 96,
+      "question": "溪州鄉衛生所位於溪州鄉溪下路四段。",
+      "correct_answer": true
+    },
+    {
+      "id": 97,
+      "question": "鹿港天后宮位於鹿港鎮彰鹿路。",
+      "correct_answer": false
+    },
+    {
+      "id": 98,
+      "question": "和美鎮衛生所位於和美鎮彰美路五段。",
+      "correct_answer": true
+    },
+    {
+      "id": 99,
+      "question": "伸港鄉衛生所位於伸港鄉中正路。",
+      "correct_answer": false
+    },
+    {
+      "id": 100,
+      "question": "線西鄉衛生所位於線西鄉和線路。",
+      "correct_answer": true
+    }
+  ]
+  

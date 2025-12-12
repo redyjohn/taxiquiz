@@ -1,0 +1,22 @@
+{
+  "category": "法規",
+  "type": "是非題",
+  "region": "",
+  "questions": [
+    {
+      "id": 1,
+      "question": "計程車駕駛人應隨身攜帶執業登記證。",
+      "options": ["是", "否"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "計程車駕駛人可以將執業登記證借給他人使用。",
+      "options": ["是", "否"],
+      "correctAnswer": 1
+    }
+  ]
+}
+
+
+

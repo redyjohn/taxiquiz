@@ -1,0 +1,22 @@
+{
+  "category": "法規",
+  "type": "選擇題",
+  "region": "",
+  "questions": [
+    {
+      "id": 1,
+      "question": "計程車駕駛人執業登記證有效期限為幾年？",
+      "options": ["3年", "4年", "5年", "6年"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "計程車駕駛人執業登記證到期前幾個月應申請換發？",
+      "options": ["1個月", "2個月", "3個月", "6個月"],
+      "correctAnswer": 2
+    }
+  ]
+}
+
+
+

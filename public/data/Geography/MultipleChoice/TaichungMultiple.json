@@ -1,0 +1,1213 @@
+{
+  "category": "地理",
+  "type": "選擇題",
+  "region": "台中",
+  "questions": [
+    {
+      "id": 1,
+      "question": "臺中公園位於臺中市北區哪條路上？",
+      "options": ["三民路", "雙十路", "文心路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "臺中市東協廣場位於中區哪條路上？",
+      "options": ["育才街", "四維街", "綠川西街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "臺中市臺中女中位於西區哪條路上？",
+      "options": ["自由路", "三民路", "建國路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "臺中市「台中酒廠文物館」位於西屯區哪條路上？",
+      "options": ["朝馬路", "福雅路", "工業區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "臺中市南區城隍廟現今位置位於哪條路上？",
+      "options": ["德祥街", "崇倫街", "合作街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "東海藝術街商圈位於臺中市哪一區的國際街、藝術街、藝術南街？",
+      "options": ["工業區", "西屯區", "龍井區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "臺中市嶺東科技大學位於南屯區哪條路上？",
+      "options": ["安和路", "臺灣大道", "嶺東路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "question": "從臺中市北區科博館載客至臺中火車站,不會經過哪條路？",
+      "options": ["五權路", "文心路", "成功路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "臺中市長榮桂冠酒店位於西屯區哪條路上？",
+      "options": ["臺灣大道二段", "文心路", "復興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "臺中市中友百貨位於北區哪條路上？",
+      "options": ["三民路", "東大路", "自由路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "臺中市南區中山醫學大學位於哪條路上？",
+      "options": ["建國北路", "復興路", "忠明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "臺中市北區中國醫藥大學位於哪條路上？",
+      "options": ["學士路", "崇德路", "三民路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "台中國際高爾夫俱樂部位於哪一區？",
+      "options": ["北屯區", "北區", "南區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "烏日啤酒廠位於烏日區哪條路上？",
+      "options": ["中山路", "新興路", "光華街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "question": "臺中市文華高中位於西屯區哪條路上？",
+      "options": ["寧夏路", "松竹路", "永興街"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "「潭雅神綠園道」是利用原軍方舊鐵道神岡支線興建而成，終點在 (1)神岡區(2)豐原區(3)大雅區 忠義里的哪個地方？",
+      "options": ["神岡區", "豐原區", "大雅區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "question": "法務部矯正署臺中監獄位於臺中市南屯區哪條路上？",
+      "options": ["松竹路", "培德路", "復興路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "藍色公路入夜以後是一點一點藍紫色的透亮冷光，沿途灑落兩條螢光帶，宛如一串藍寶石項鍊，位於臺中市哪一區的藍色公路上？",
+      "options": ["龍井區", "大肚區", "烏日區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "臺中市臺中科技大學位於北區哪條路上？",
+      "options": ["三民路", "雙十路", "力行路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "國立臺灣體育運動大學位於北區哪條路上？",
+      "options": ["雙十路", "中清路", "豐樂路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "「臺中國家歌劇院」曾獲普立茲克獎的日本建築師伊東豊雄設計，位於臺中市西屯區哪條路上？",
+      "options": ["惠文路", "惠中路", "惠來路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "question": "臺中市國立自然科學博物館位於北區哪條路上？",
+      "options": ["文心路", "北屯路", "館前路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "question": "臺中火力發電廠位於臺中市哪一區的龍昌路上？",
+      "options": ["大肚區", "清水區", "龍井區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "question": "「歷史建築臺中放送局」位於臺中市北區哪條路上？",
+      "options": ["五常街", "電台街", "光大街"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "行政院衛生署臺中醫院位於臺中市西區哪條路上？",
+      "options": ["福星路", "三民路", "光復路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "「宮原眼科」位於臺中市中區哪條路上？",
+      "options": ["中正路", "中山路", "三民路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "國立中興大學位於南區哪條路上？",
+      "options": ["公益路", "東興路", "興大路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "question": "臺中市積善樓位於北屯區哪條路上？",
+      "options": ["國光路", "旱溪街", "興安路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 29,
+      "question": "臺灣高等法院臺中分院位於南區哪條路上？",
+      "options": ["自由路", "五權南路", "建國路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "臺中市國立臺灣美術館位於西區哪條路上？",
+      "options": ["東興路", "忠明南路", "五權西路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 31,
+      "question": "臺中市老虎城購物中心位於西屯區哪條路上？",
+      "options": ["東興路", "河南路", "朝馬路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "臺中市中部科學園區位於哪一區？",
+      "options": ["西屯區", "南區", "北區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "目前為國內第二個世貿中心「台中世界貿易中心」位於臺中市西屯區哪條路上？",
+      "options": ["天保街", "天佑街", "福安街"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "臺中市洲際棒球場位於北屯區哪條路上？",
+      "options": ["環中、崇德路上", "北屯路", "太原路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "臺中市議會位於西屯區哪條路上？",
+      "options": ["市政路", "市政北一路", "市政北三路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "臺中市文英館位於北區哪條路上？",
+      "options": ["雙十路", "力行路", "學士路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "臺中市東山高級中學位於北屯區哪條路上？",
+      "options": ["景賢六路", "東大路", "遊園路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "臺中市北區殯儀館位於哪條路上？",
+      "options": ["民生路", "林森路", "崇德路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "question": "臺中市台中金典酒店位於西區哪條路上？",
+      "options": ["復興路", "林森路", "健行路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 40,
+      "question": "臺中市臺中監理所位於大肚區哪條路上？",
+      "options": ["北屯路", "遊園路", "嶺東路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "臺中市臺中監理站位於北區哪條路上？",
+      "options": ["西屯路", "南屯路", "北屯路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 42,
+      "question": "從臺中火車站至中友百貨公司,不會經過臺中市哪條路？",
+      "options": ["三民路", "錦平街", "五常街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 43,
+      "question": "臺中市政府警察局第三分局位於南區哪條路上？",
+      "options": ["中港路", "復興路", "台中路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "question": "臺中市政府警察局第四分局位於南屯區哪條路上？",
+      "options": ["惠來路", "惠中路", "向心南路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 45,
+      "question": "臺中市政府警察局第六分局位於西屯區哪條路上？",
+      "options": ["市政路", "河南路", "文心路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "臺中市廣三百貨位於西區哪條路上？",
+      "options": ["英才路", "臺灣大道二段", "三民路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "question": "臺中市長榮桂冠酒店位於西屯區哪條路上？",
+      "options": ["三民路", "西屯路", "臺灣大道路二段"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 48,
+      "question": "臺中市永豐棧酒店位於西屯區哪條路上？",
+      "options": ["大業路", "公益路", "臺灣大道二段"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 49,
+      "question": "逢甲大學前往中部科學園區可經由哪條路前往？",
+      "options": ["松竹路", "中科路", "忠明南路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "question": "臺中市新光三越位於西屯區哪條路上？",
+      "options": ["臺灣大道三段", "中清路", "中華路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 51,
+      "question": "臺中市東海大學位於西屯區哪條路上？",
+      "options": ["西屯路", "臺灣大道四段", "北屯路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "question": "臺中市足球場位於西屯區哪條路上？",
+      "options": ["大業路", "安和路", "朝馬路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 53,
+      "question": "臺中市立龍津高級中等學校位於哪一區？",
+      "options": ["大雅區", "龍井區", "霧峰區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 54,
+      "question": "臺中市天主教曉明女中位於北區哪條路上？",
+      "options": ["中清路", "臺灣大道", "忠明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 55,
+      "question": "臺中市世貿中心位於西屯區哪條路上？",
+      "options": ["青海路", "天保街", "安和路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "question": "臺中市北區臺中孔廟位於哪條路上？",
+      "options": ["軍功路", "雙十路", "臺灣大道"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 57,
+      "question": "從臺中火車站至臺中榮總醫院,應往哪一區方向行駛?",
+      "options": ["西屯區", "北屯區", "南區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 58,
+      "question": "臺中市中科飯店位於北屯區哪條路上？",
+      "options": ["臺灣大道", "東山路", "崇德路二段"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 59,
+      "question": "臺中兆品酒店位於北屯區哪條路上？",
+      "options": ["后庄路", "東大路", "西屯路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 60,
+      "question": "臺中市西區大墩文化中心位於哪條路上？",
+      "options": ["英才路", "臺灣大道", "中清路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "question": "臺中市國立自然科學博物館植物園入口位於哪條路上？",
+      "options": ["臺灣大道", "西屯路", "民權路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 62,
+      "question": "三井OUTLET位於臺中市哪一區的臺灣大道十段？",
+      "options": ["清水區", "大甲區", "梧棲區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 63,
+      "question": "從統聯客運中港轉運站載客至臺中市西屯區逢甲夜市,不會經過哪一條路？",
+      "options": ["西屯路", "黎明路", "惠中路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 64,
+      "question": "臺中市政府警察局繼中派出所位於中區哪條路上？",
+      "options": ["中山路", "中華路", "黎明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 65,
+      "question": "臺中市東山高中位於北屯區哪條路上？",
+      "options": ["東山路", "景賢六路", "軍功路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 66,
+      "question": "清雍正五年竣工完成的萬和宮，位於臺中市哪一區的萬和路上？",
+      "options": ["北屯區", "南屯區", "南區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 67,
+      "question": "IKEA宜家家居-臺中店位於南屯區哪條路上？",
+      "options": ["公益路", "向上南路", "惠文路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 68,
+      "question": "「新都生態公園」位於哪一區的祥順路上？",
+      "options": ["北屯區", "北區", "南屯區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 69,
+      "question": "臺中潭子區慈濟醫院前往東勢區，經由台74線轉哪個國道可快速到達？",
+      "options": ["松竹路", "國道4號", "雅潭路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 70,
+      "question": "裕元花園酒店前往臺中國際機場經由哪條路可快速抵達？",
+      "options": ["東大路", "西屯路", "中科路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 71,
+      "question": "臺中市有「價位低廉、流行時尚的購物天堂」之稱,以服飾業著名的商圈,位於北區哪條路上？",
+      "options": ["逢甲路", "精誠路", "天津街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 72,
+      "question": "臺灣太陽餅博物館位址的建築為「全安堂」，位於臺中市中區哪條路上？",
+      "options": ["臺灣大道一段", "自由路", "三民路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 73,
+      "question": "臺中市西區有「藝術人文薈萃.異國佳餚雲集」之稱的商圈是？",
+      "options": ["逢甲商圈", "美術園道商圈", "一中街商圈"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 74,
+      "question": "臺中市西屯區有「流行HITO大本營、青春揮灑玩樂町」之稱的商圈是？",
+      "options": ["逢甲商圈", "繼光街商圈", "大坑商圈"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 75,
+      "question": "臺中洲際棒球場前往臺鐵臺中站可經由哪條路快速抵達？",
+      "options": ["松竹路", "環中路", "崇德路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 76,
+      "question": "中國醫藥大學附設醫院急診部位於臺中市北區哪條路上？",
+      "options": ["五權路", "美德街", "育德路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 77,
+      "question": "臺中市第二市場位於中區哪條路上？",
+      "options": ["三民路", "熱河路", "進化北路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 78,
+      "question": "臺中市永安市場位於西區哪條路上？",
+      "options": ["永安街", "太原路", "進化路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 79,
+      "question": "臺中市北屯市場位於北屯區哪條路上？",
+      "options": ["進化北路", "台中路", "公益路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 80,
+      "question": "臺中市四張犁黃昏市場位於北屯區哪條路上？",
+      "options": ["松竹路", "軍功路", "四平路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 81,
+      "question": "臺中市建國市場位於東區哪條路上？",
+      "options": ["建成路", "大智路", "樂業路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 82,
+      "question": "臺中市中部科學園區位於西屯區哪條路上？",
+      "options": ["環中路", "東大路", "國光路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 83,
+      "question": "臺中市北屯區文昌廟位於哪條路上？",
+      "options": ["昌平路", "中清路", "水湳路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 84,
+      "question": "臺中市中山堂位於北區哪條路上？",
+      "options": ["學士路", "北屯路", "英才路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 85,
+      "question": "臺中市平埔族蕃仔井位於南屯區哪條路上？",
+      "options": ["五權西路", "環中路", "永春南路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 86,
+      "question": "從臺中火車站至東海藝術街,行走臺中市哪一條路最快？",
+      "options": ["臺灣大道一段", "北屯路", "建國路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 87,
+      "question": "從臺中市中清路國光客運站至豐原火車站,行走哪一條路最「省時」？",
+      "options": ["台3線", "國道1號", "國道4號"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 88,
+      "question": "台灣區花卉運銷合作社位於南屯區哪條路上？",
+      "options": ["五權西路", "永春東七路", "向上南路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 89,
+      "question": "臺中市三陽堂圖書室位於北區哪條路上？",
+      "options": ["進化北路", "信義路", "自強街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 90,
+      "question": "臺中市南平公園位於南區哪條路上？",
+      "options": ["福新街", "豐樂路", "環中路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 91,
+      "question": "臺中市舊社公園位於北屯區哪兩條路的交界？",
+      "options": ["北屯與松竹路", "文心路與大隆路", "大墩路與大墩十九街"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 92,
+      "question": "臺中市西屯區台中酒廠文物館位於哪條路上？",
+      "options": ["工業28路", "臺灣大道", "文華路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 93,
+      "question": "臺中市大坑農夫市集位於北屯區東山路幾號登山步道入口？",
+      "options": ["九號", "八號", "七號"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 94,
+      "question": "臺中市寶之林資源回收園區位於北屯區哪條路上？",
+      "options": ["和順路", "松竹路", "復興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 95,
+      "question": "臺中市立仁愛之家位於北屯區哪條路上？",
+      "options": ["軍功路", "東山路", "太原路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 96,
+      "question": "臺中市宏恩醫院附設護理之家位於南區哪條路上？",
+      "options": ["復興路二段", "五權路", "環中路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 97,
+      "question": "臺中市政府地方稅務局大屯分局是在大里區中興路與哪條路的路上？",
+      "options": ["大里路", "大明路", "益民路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 98,
+      "question": "勞動部勞工保險局臺中市第二辦事處位於豐原區哪條路上？",
+      "options": ["成功路", "中山路", "中正路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 99,
+      "question": "臺中市車輛行車事故鑑定委員會位於西區哪條路上？",
+      "options": ["自由路", "保康路", "永康路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 100,
+      "question": "公路總局臺中區監理所位於哪一區？",
+      "options": ["沙鹿區", "龍井區", "大肚區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 101,
+      "question": "臺中市豐原廟東夜市位於豐原區哪條路上？",
+      "options": ["中正路", "中山路", "三民路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 102,
+      "question": "「臺中市政府文化局屯區藝文中心」位於臺中市哪一區的大興路上？",
+      "options": ["西屯區", "太平區", "北屯區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 103,
+      "question": "豐原市火車站要到國家教育研究院需往哪個區方向前進？",
+      "options": ["后里區", "神岡區", "石岡區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 104,
+      "question": "臺中成功嶺新訓中心一號門是臨近在烏日區哪條路上？",
+      "options": ["中山路", "新興路", "光日路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 105,
+      "question": "臺中市政府豐原拖吊保管場在哪條路上？",
+      "options": ["中山路", "大洲路", "國豐路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 106,
+      "question": "臺中市豐原高中位於豐原區哪條路上？",
+      "options": ["南陽路", "北陽路", "水源路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 107,
+      "question": "臺中市政府第二辦公大樓位於豐原區哪條路上？",
+      "options": ["北陽街", "惠陽街", "陽明街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 108,
+      "question": "臺中市豐原區文化中心是位於哪條路上？",
+      "options": ["圓環東路", "圓環西路", "圓環南路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 109,
+      "question": "豐原市街的中心慈濟宮位於豐原區哪條路上？",
+      "options": ["中正路", "中山路", "三民路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 110,
+      "question": "臺中市朝陽科技大學位於哪一區？",
+      "options": ["沙鹿區", "豐原區", "霧峰區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 111,
+      "question": "臺中市潭子區慈濟醫院位於哪條路上？",
+      "options": ["豐興路", "新田路", "田心路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 112,
+      "question": "行政院農業委員「種苗改良繁殖場」位於臺中市哪一區？",
+      "options": ["石岡區", "東勢區", "新社區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 113,
+      "question": "臺中市月眉糖廠位於后里區哪條路上？",
+      "options": ["三豐路", "甲后路", "安眉路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 114,
+      "question": "臺中市政府「消防局」位於南屯區哪條路上？",
+      "options": ["臺中港路", "大雅路", "文心南九路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 115,
+      "question": "臺中市私立明道高級中學位於烏日區哪條路上？",
+      "options": ["中山路", "中正路", "新興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 116,
+      "question": "臺中市新社區公所位於新社區哪條路上？",
+      "options": ["中和街", "新社街", "興社街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 117,
+      "question": "臺中太平區戶政事務所位於太平區哪條路上？",
+      "options": ["太平路", "中興路", "大源路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 118,
+      "question": "下列遊樂區何者未於臺中市和平區內？",
+      "options": ["大禹嶺森林遊樂區", "八仙山國家森林遊樂區", "大雪山森林遊樂區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 119,
+      "question": "臺中市大雅區公所位於大雅區哪條路上？",
+      "options": ["中清路", "雅潭路", "雅環路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 120,
+      "question": "行政院農業委員會「農業試驗所」位於臺中市哪一區？",
+      "options": ["霧峰區", "東勢區", "新社區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 121,
+      "question": "臺中市立豐原國民中學位於豐原區哪條路上？",
+      "options": ["圓環北路", "圓環西路", "三豐路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 122,
+      "question": "臺中市「惠明盲校」位於哪個區的路上？",
+      "options": ["后里區三豐路", "大雅區雅潭路", "霧峰區萊園路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 123,
+      "question": "由臺中市沙鹿區火車站走沙田路轉臺灣大道到臺中榮總醫院沒有經過哪個地點？",
+      "options": ["沙鹿高工", "靜宜大學", "沙鹿區公所"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 124,
+      "question": "成功車站位於臺中市烏日區哪條路上？",
+      "options": ["中正路", "中山路", "新興路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 125,
+      "question": "「參山國家風景區管理處」位於哪一區？",
+      "options": ["和平區", "大甲區", "霧峰區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 126,
+      "question": "高鐵台中站位於烏日區哪條路上？",
+      "options": ["高鐵東路", "站區二路", "中山路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 127,
+      "question": "中彰快速道路與國道三號高速公路連接之交流道是哪個？",
+      "options": ["彰化交流道", "霧峰交流道", "快官交流道"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 128,
+      "question": "台灣電力公司臺中火力發電廠位於臺中市哪一區？",
+      "options": ["龍井區", "大肚區", "烏日區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 129,
+      "question": "國道三號高速公路往龍井、大肚的交流道是哪個？",
+      "options": ["霧峰交流道", "沙鹿交流道", "龍井交流道"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 130,
+      "question": "臺中三井LaLaport位於東區哪條路上？",
+      "options": ["大智路", "臺中路", "進德路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 131,
+      "question": "臺中市龍井火車站位於龍井區哪條路上？",
+      "options": ["龍新路", "中華路", "中央路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 132,
+      "question": "中油公司王田油庫位在臺中市哪一區？",
+      "options": ["龍井區", "沙鹿區", "大肚區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 133,
+      "question": "臺中市古蹟-追分車站是在臺中市大肚區哪條路上？",
+      "options": ["興和路", "追分街", "自由路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 134,
+      "question": "烏日啤酒觀光工廠位於臺中市烏日區哪條路上？",
+      "options": ["憬學街", "光華街", "榮泰街"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 135,
+      "question": "臺中市三級古蹟-磺溪書院位於大肚區磺溪里哪條路上？",
+      "options": ["榮華街", "自由路", "文昌路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 136,
+      "question": "新烏日車站在臺中市烏日區哪條路上？",
+      "options": ["三民路", "站區一路", "高鐵東一路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 137,
+      "question": "高鐵台中站在臺中市哪一區？",
+      "options": ["大肚區", "烏日區", "龍井區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 138,
+      "question": "臺中市立豐原商業高級中等學校位於豐原區哪條路上？",
+      "options": ["圓環東路", "圓環南路", "圓環北路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 139,
+      "question": "臺中地方簡易庭在哪個區的路上？",
+      "options": ["豐原區中正路", "大雅區民生路", "潭子區豐興路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 140,
+      "question": "臺中市葫蘆墩國小位於豐原區哪條路上？",
+      "options": ["豐原大道", "三豐路", "葫蘆墩一街"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 141,
+      "question": "臺中市豐原漆藝館位於豐原區哪條路上？",
+      "options": ["水源路", "豐原大道", "圓環東路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 142,
+      "question": "臺中市豐原區戶政事務所位於豐原區哪條路上？",
+      "options": ["西安街", "市政路", "豐中路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 143,
+      "question": "臺中市豐原區監理站位於豐原區哪條路上？",
+      "options": ["西安街", "市政路", "豐東路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 144,
+      "question": "臺中市神岡區台灣氣球博物館位於哪條路上？",
+      "options": ["豐洲路", "大圳路", "大豐路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 145,
+      "question": "臺中市豐原高中位於豐原區哪條路上？",
+      "options": ["中山路", "中正路", "水源路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 146,
+      "question": "臺灣銀行豐原分行位於豐原區哪條路上？",
+      "options": ["中山路", "中正路", "水源路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 147,
+      "question": "臺13線后豐大橋銜接后里區與哪一區？",
+      "options": ["三義鄉", "豐原區", "大甲區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 148,
+      "question": "臺中市豐原區慈濟宮媽祖廟位於哪條路上？",
+      "options": ["中山路", "中正路", "三民路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 149,
+      "question": "臺中市潭子區運動公園位於哪條路上？",
+      "options": ["勝利路", "中正路", "潭興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 150,
+      "question": "臺中市清泉崗機場位於沙鹿區哪條路上？",
+      "options": ["清泉路", "忠貞路", "中航路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 151,
+      "question": "臺中市潭雅神自行車道起點位於潭子區哪條路上？",
+      "options": ["中山路", "中正路", "潭興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 152,
+      "question": "臺中市后里馬場位於后里區哪條路上？",
+      "options": ["三豐路", "寺山路", "甲后路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 153,
+      "question": "駕駛汽車由臺中市大甲區往「中二高」大甲交流道需往哪個區方向行駛？",
+      "options": ["大安區", "外埔區", "清水區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 154,
+      "question": "臺中市大甲區公所位於大甲區哪條路上？",
+      "options": ["蔣公路", "水源路", "民權路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 155,
+      "question": "臺中市中部花市位於哪一區？",
+      "options": ["大甲區", "外埔區", "后里區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 156,
+      "question": "臺中市大甲鎮瀾宮媽祖廟位於大甲區哪條路上？",
+      "options": ["順天路", "蔣公路", "光明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 157,
+      "question": "臺中市光田醫院大甲分院位置在大甲區哪條路上？",
+      "options": ["順天路", "民生路", "經國路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 158,
+      "question": "臺中市大甲區鐵砧山內之劍井又稱為？",
+      "options": ["王爺井", "國姓井", "鄭王爺井"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 159,
+      "question": "臺中市大甲區內有名觀光景點文昌祠位於哪條路上？",
+      "options": ["文武路", "民生路", "公明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 160,
+      "question": "「臺中市中正紀念館」位於臺中市大甲區哪條路上？",
+      "options": ["水源路", "經國路", "順天路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 161,
+      "question": "臺中市政府警察局和平分局位於和平區哪條路上？",
+      "options": ["雪山路", "東關路", "中興路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 162,
+      "question": "臺中市梨山賓館為於和平區哪條路上？",
+      "options": ["中正路", "東關路", "中興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 163,
+      "question": "臺中市大雪山森林遊樂區在和平區哪條路上？",
+      "options": ["雪山路", "東關路", "中興路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 164,
+      "question": "臺中市武陵農場位於和平區哪條路上？",
+      "options": ["雪山路", "東關路", "武陵路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 165,
+      "question": "臺中市和平區德基水庫在哪條路上？",
+      "options": ["中興路", "東關路", "和平路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 166,
+      "question": "臺中市「921地震教育園區」位於何區?",
+      "options": ["東勢區", "烏日區", "霧峰區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 167,
+      "question": "臺中市「朝陽科技大學」位於哪一區？",
+      "options": ["太平區", "霧峰區", "大甲區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 168,
+      "question": "臺中市「國立台灣交響樂團」位於哪一區？",
+      "options": ["太平區", "烏日區", "霧峰區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 169,
+      "question": "臺中市霧峰區「澄清醫院」位於哪條路上？",
+      "options": ["中山路", "中正路", "中興路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 170,
+      "question": "「經濟部台中軟體園區 Dali Art藝術廣場」位於臺中市哪一區的科技路1號？",
+      "options": ["大里區", "太平區", "霧峰區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 171,
+      "question": "臺中市大里區『仁愛醫院』位於東榮路與哪條路口？",
+      "options": ["國光路", "中興路", "大明路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 172,
+      "question": "臺中市大里區『菩提醫院』位於大明路與哪條路口？",
+      "options": ["國光路", "中興路", "元堤路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 173,
+      "question": "臺中市「僑泰中學」位於哪一區？",
+      "options": ["太平區", "大里區", "大甲區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 174,
+      "question": "臺中市「國光假日花市」位於哪一區？",
+      "options": ["大平區", "霧峰區", "大里區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 175,
+      "question": "陸軍機械化步兵第二三四旅「竹子坑營區」位於臺中市哪一區的健民路？",
+      "options": ["大里區", "霧峰區", "清水區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 176,
+      "question": "「頭汴坑蝙蝠洞」風景區位於臺中市哪一區？",
+      "options": ["大里區", "霧峰區", "太平區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 177,
+      "question": "陸軍五八砲指部圳堵營區位於臺中市哪一區的神清路？",
+      "options": ["大里區", "神岡區", "東勢區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 178,
+      "question": "國立勤益科技大學與坪林森林公園位於臺中市哪一區？",
+      "options": ["大里區", "太平區", "東勢區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 179,
+      "question": "「國軍臺中 803 總醫院」位於臺中市哪一區的中山路二段？",
+      "options": ["大里區", "太平區", "東勢區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 180,
+      "question": "臺中市屯區藝文中心位於太平區哪條路上？",
+      "options": ["長安路", "大興路", "環太東路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 181,
+      "question": "臺中市「樹孝路商圈」位於哪一區？",
+      "options": ["豐原區", "太平區", "東勢區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 182,
+      "question": "臺中市太平區「咬人狗坑生態景觀步道」位於哪條路上？",
+      "options": ["新仁路", "新平路", "東平路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 183,
+      "question": "「清水紫雲巖」位於臺中市清水區哪條路上？",
+      "options": ["光華路", "鎮南街", "大街路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 184,
+      "question": "中部國際機場在臺中市沙鹿區哪條路上？",
+      "options": ["臺灣大道", "中山路", "中航路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 185,
+      "question": "西濱快速道路穿越臺中市哪兩區？",
+      "options": ["清水與沙鹿區", "沙鹿與梧棲區", "清水與梧棲區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 186,
+      "question": "臺中市清水區三民路為台幾線？",
+      "options": ["台1線", "台8線", "台10線"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 187,
+      "question": "臺中市沙鹿區巨業客運總站在哪條路上？",
+      "options": ["四平街", "中山路", "沙田路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 188,
+      "question": "臺中市高美野生動物保護區位於哪一區？",
+      "options": ["清水區", "沙鹿區", "梧棲區"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 189,
+      "question": "臺中市弘光科技大學位置在沙鹿區哪條路上？",
+      "options": ["臺灣大道六段", "中山路", "沙田路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 190,
+      "question": "臺中市港區藝術中心位置在清水區哪條路上？",
+      "options": ["鰲峰路", "中華路", "忠貞路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 191,
+      "question": "沙鹿火車站位置在臺中市沙鹿區哪條路上？",
+      "options": ["鎮政路", "中正街", "沙田路"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 192,
+      "question": "臺中榮民總醫院是在臺中市西屯區哪條路上？",
+      "options": ["中正路", "中山路", "臺灣大道四段"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 193,
+      "question": "國軍「陸軍五二工兵群光隆營區」位於臺中市哪一區？",
+      "options": ["大里區", "太平區", "東勢區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 194,
+      "question": "「泰安舊火車站」位於臺中市后里區哪條路上？",
+      "options": ["福安路", "福美路", "福興路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 195,
+      "question": "臺中市麗寶樂園位於哪一區？",
+      "options": ["大甲區", "外埔區", "后里區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 196,
+      "question": "夢幻般的「彩虹眷村」位於南屯區哪條路上？",
+      "options": ["春安路", "春社路", "嶺東南路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 197,
+      "question": "「臺中中央公園」主要位於哪一區境內？",
+      "options": ["南屯區", "北屯區", "西屯區"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 198,
+      "question": "臺中市市定古蹟「聚奎居」位於哪一區？",
+      "options": ["太平區", "烏日區", "霧峰區"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 199,
+      "question": "「柳川藍帶水岸」位於中區哪條路上？",
+      "options": ["柳川東路", "綠川東路", "三民路"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 200,
+      "question": "經濟部台中軟體園區位於大里區哪條路上？",
+      "options": ["中科路", "大里路", "科技路"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 201,
+      "question": "臺中市著名梧棲漁港位於哪一區？",
+      "options": ["沙鹿區", "清水區", "梧棲區"],
+      "correctAnswer": 2
+    }
+  ]
+}

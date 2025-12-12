@@ -1,0 +1,565 @@
+[
+    {
+      "id": 1,
+      "question": "知名景點九族文化村位於南投縣集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 2,
+      "question": "惠蓀林場森林遊樂區位於南投縣仁愛鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 3,
+      "question": "泰雅渡假村位於南投縣仁愛鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 4,
+      "question": "縣道139線為八卦山觀光軸線，可由南投至彰化大佛風景區。",
+      "correct_answer": true
+    },
+    {
+      "id": 5,
+      "question": "溪頭森林遊樂區位於南投縣南投市。",
+      "correct_answer": false
+    },
+    {
+      "id": 6,
+      "question": "仙峰日月洞位於中寮鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 7,
+      "question": "日月潭向山遊客服務中心位於省道台16線旁。",
+      "correct_answer": false
+    },
+    {
+      "id": 8,
+      "question": "南投縣三大古蹟書院藍田書院位於南投縣南投市。",
+      "correct_answer": true
+    },
+    {
+      "id": 9,
+      "question": "南投酒廠位於南投縣竹山鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 10,
+      "question": "國史館臺灣文獻館位於南投市中興新村。",
+      "correct_answer": true
+    },
+    {
+      "id": 11,
+      "question": "從草屯往埔里要走中投公路。",
+      "correct_answer": false
+    },
+    {
+      "id": 12,
+      "question": "從水里鄉去信義鄉要經過龍神橋。",
+      "correct_answer": true
+    },
+    {
+      "id": 13,
+      "question": "LaLu島(拉魯)位於竹山鎮太極峽谷。",
+      "correct_answer": false
+    },
+    {
+      "id": 14,
+      "question": "微笑天梯位於猴探井遊憩區內，要由縣道139線進入猴探井街才能抵達。",
+      "correct_answer": true
+    },
+    {
+      "id": 15,
+      "question": "紅香溫泉位於國姓鄉南港村。",
+      "correct_answer": false
+    },
+    {
+      "id": 16,
+      "question": "糯米石橋位於國姓鄉北港村。",
+      "correct_answer": true
+    },
+    {
+      "id": 17,
+      "question": "南投縣肉品市場位於名間鄉彰南路上。",
+      "correct_answer": true
+    },
+    {
+      "id": 18,
+      "question": "曲冰遺址位於仁愛鄉萬豐村。",
+      "correct_answer": true
+    },
+    {
+      "id": 19,
+      "question": "莫那魯道紀念碑(抗日紀念碑)位於仁愛鄉霧社。",
+      "correct_answer": true
+    },
+    {
+      "id": 20,
+      "question": "雲龍瀑布位於信義鄉八通關古道。",
+      "correct_answer": true
+    },
+    {
+      "id": 21,
+      "question": "知名賞梅景點烏松崙及風櫃斗位於南投縣信義鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 22,
+      "question": "南投坪頂七股神木樟樹公位於草屯鎮。",
+      "correct_answer": true
+    },
+    {
+      "id": 23,
+      "question": "從水里鄉去信義鄉要經過龍神橋。",
+      "correct_answer": true
+    },
+    {
+      "id": 24,
+      "question": "特有生物研究保育中心位於南投縣名間鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 25,
+      "question": "台灣水資源館位於集集攔河堰旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 26,
+      "question": "銀杏森林位於南投縣鹿谷鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 27,
+      "question": "玉山國家公園管理處位於南投縣信義鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 28,
+      "question": "行駛竹山鎮149縣道可以通往雲林古坑。",
+      "correct_answer": true
+    },
+    {
+      "id": 29,
+      "question": "著名歷史地標慈恩塔位於南投縣日月潭。",
+      "correct_answer": true
+    },
+    {
+      "id": 30,
+      "question": "國道3號南投服務區後方有便道可行駛往中寮。",
+      "correct_answer": true
+    },
+    {
+      "id": 31,
+      "question": "日月潭九蛙疊像位於伊達邵碼頭。",
+      "correct_answer": false
+    },
+    {
+      "id": 32,
+      "question": "要前往天梯風景區要走省道台14線才能到達。",
+      "correct_answer": false
+    },
+    {
+      "id": 33,
+      "question": "知名景點軟鞍八卦茶園位於名間鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 34,
+      "question": "國立暨南國際大學位於南投縣魚池鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 35,
+      "question": "三級古蹟登瀛書院位於南投縣草屯鎮。",
+      "correct_answer": true
+    },
+    {
+      "id": 36,
+      "question": "日月潭伊達邵碼頭位於南投縣集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 37,
+      "question": "文武廟位於集集鎮八張街。",
+      "correct_answer": false
+    },
+    {
+      "id": 38,
+      "question": "前往塔塔加遊客服務中心只能由南投縣信義鄉台21線才能到達。",
+      "correct_answer": false
+    },
+    {
+      "id": 39,
+      "question": "國立臺灣大學農學院實驗林管理處位於南投縣南投市。",
+      "correct_answer": false
+    },
+    {
+      "id": 40,
+      "question": "日月潭玄奘寺位於環湖公路朝霧碼頭旁。",
+      "correct_answer": false
+    },
+    {
+      "id": 41,
+      "question": "武界吊橋、一線天、摩摩那爾瀑布位於南投縣埔里鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 42,
+      "question": "要上山至杉林溪森林遊樂區度假，要走台21線才能抵達。",
+      "correct_answer": false
+    },
+    {
+      "id": 43,
+      "question": "清境農場、青青草原位於南投縣竹山鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 44,
+      "question": "雙龍七彩吊橋位於南投縣竹山鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 45,
+      "question": "雙十吊橋位於南投縣草屯鎮。",
+      "correct_answer": true
+    },
+    {
+      "id": 46,
+      "question": "中部紅茶產地澀水社區位於魚池鄉大雁巷。",
+      "correct_answer": true
+    },
+    {
+      "id": 47,
+      "question": "橋聳雲天位於國道六號國姓交流道。",
+      "correct_answer": true
+    },
+    {
+      "id": 48,
+      "question": "旭光高中位於南投縣草屯鎮省道台3線上。",
+      "correct_answer": false
+    },
+    {
+      "id": 49,
+      "question": "走國姓鄉台21線可到達台中市台8線中橫公路。",
+      "correct_answer": true
+    },
+    {
+      "id": 50,
+      "question": "桃米生態濕地位於魚池鄉東光村。",
+      "correct_answer": false
+    }
+  ,
+    
+    {
+      "id": 51,
+      "question": "草鞋墩人文觀光夜市位於南投縣南投市。",
+      "correct_answer": false
+    },
+    {
+      "id": 52,
+      "question": "東埔溫泉、七彩瀑布位於南投縣仁愛鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 53,
+      "question": "台灣地理中心碑位於埔里鎮和平東路旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 54,
+      "question": "地母廟位於南投縣南投市。",
+      "correct_answer": false
+    },
+    {
+      "id": 55,
+      "question": "塔塔加夫妻樹神木位於省道台16線旁。",
+      "correct_answer": false
+    },
+    {
+      "id": 56,
+      "question": "明潭發電廠位於埔里鎮中山路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 57,
+      "question": "由信義鄉走台21線可以銜接台18線往嘉義阿里山公路。",
+      "correct_answer": true
+    },
+    {
+      "id": 58,
+      "question": "草坪頭為近年來中部著名賞櫻勝地，該觀光地區位於南投縣竹山鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 59,
+      "question": "知名溫泉景點東埔溫泉位於南投縣信義鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 60,
+      "question": "中台禪寺位於南投縣國姓鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 61,
+      "question": "知名觀星聖地鳶峰停車場位於仁愛鄉合歡山風景區。",
+      "correct_answer": true
+    },
+    {
+      "id": 62,
+      "question": "碧湖(萬大水庫)位於南投縣仁愛鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 63,
+      "question": "廣興紙寮位於南投縣國姓鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 64,
+      "question": "農工商會展中心為南投市近年來舉辦各項大型活動場所，該園區位於南投市復興路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 65,
+      "question": "人止關位於埔里往仁愛台14線埔霧公路旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 66,
+      "question": "南開科技大學位於南投市省道台3線旁。",
+      "correct_answer": false
+    },
+    {
+      "id": 67,
+      "question": "由溪頭下山行駛151縣道如遇塞車可改走替代道路投55鄉道經小半天下山。",
+      "correct_answer": true
+    },
+    {
+      "id": 68,
+      "question": "南投市南投大戲院位於復興路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 69,
+      "question": "南投縣立體育場位於南投市南陽路與建國路口。",
+      "correct_answer": false
+    },
+    {
+      "id": 70,
+      "question": "奕青酒莊位於南投縣水里鄉。",
+      "correct_answer": true
+    },
+    {
+      "id": 71,
+      "question": "信義鄉農會梅子夢工廠位於省道台21線旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 72,
+      "question": "青竹竹藝文化園區位於南投縣竹山鎮。",
+      "correct_answer": true
+    },
+    {
+      "id": 73,
+      "question": "知名景點猴探井、八卦山茶園、落羽松森林位於136縣道上。",
+      "correct_answer": false
+    },
+    {
+      "id": 74,
+      "question": "莫那魯道抗日紀念碑位於仁愛鄉清境農場。",
+      "correct_answer": false
+    },
+    {
+      "id": 75,
+      "question": "中興會堂位於南投縣南投市。",
+      "correct_answer": true
+    },
+    {
+      "id": 76,
+      "question": "中興新村為舊省政府所在地，地理位置位於南投縣集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 77,
+      "question": "龍鳳瀑布天空步道位於南投縣國姓鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 78,
+      "question": "梅子夢工廠位於南投縣埔里鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 79,
+      "question": "南投縣地方法院位於南投市中興新村。",
+      "correct_answer": false
+    },
+    {
+      "id": 80,
+      "question": "南投縣觀音瀑布位於台14線埔霧公路旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 81,
+      "question": "車埕車站及木業展示館為新興文創觀光園區，該園區位於集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 82,
+      "question": "921地震震災武昌宮遺址位於南投縣中寮鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 83,
+      "question": "南投知名土地公廟紫南宮位於南投縣集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 84,
+      "question": "著名風景區軟鞍八卦茶園、天梯風景區位於集集鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 85,
+      "question": "毓繡美術館位於南投縣草屯鎮九九峰生態藝術園區旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 86,
+      "question": "集集綠色隧道為民眾前來遊玩騎乘腳踏車熱門景點，該景點位於152縣道上。",
+      "correct_answer": true
+    },
+    {
+      "id": 87,
+      "question": "名間親子生態園區位於名間鄉彰南路。",
+      "correct_answer": true
+    },
+    {
+      "id": 88,
+      "question": "集集火葬場位於集集鎮名水路一段。",
+      "correct_answer": false
+    },
+    {
+      "id": 89,
+      "question": "集集鎮明新書院位於集集鎮文昌巷。",
+      "correct_answer": false
+    },
+    {
+      "id": 90,
+      "question": "產業運輸大道東起信義鄉沿路至水里鄉、集集鎮至竹山鎮，終點在名間鄉。",
+      "correct_answer": false
+    },
+    {
+      "id": 91,
+      "question": "九份二山地震紀念園區位於南投縣埔里鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 92,
+      "question": "南開科技大學位於南投縣南投市中正路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 93,
+      "question": "草鞋墩人文觀光夜市位於寶島時代村旁。",
+      "correct_answer": true
+    },
+    {
+      "id": 94,
+      "question": "埔里酒廠位於埔里鎮中正路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 95,
+      "question": "合歡山翠峰風景區位於南投縣埔里鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 96,
+      "question": "走仁愛鄉力行產業道路投89線可以通往福壽山農場。",
+      "correct_answer": true
+    },
+    {
+      "id": 97,
+      "question": "埔里鎮假日觀光夜市位於埔霧公路旁。",
+      "correct_answer": false
+    },
+    {
+      "id": 98,
+      "question": "台灣天文原點位於南投縣埔里鎮。",
+      "correct_answer": true
+    },
+    {
+      "id": 99,
+      "question": "中部知名飛行傘場位於埔里鎮大坪頂。",
+      "correct_answer": false
+    },
+    {
+      "id": 100,
+      "question": "埔里鎮知名宗教聖地中台禪寺位於埔里鎮永興路上。",
+      "correct_answer": false
+    },
+    {
+      "id": 101,
+      "question": "紙教堂位於魚池鄉桃米生態村。",
+      "correct_answer": false
+    },
+    {
+      "id": 102,
+      "question": "從埔里通過武界部落後可到達奧萬大森林遊樂園。",
+      "correct_answer": true
+    },
+    {
+      "id": 103,
+      "question": "駕車由埔里方向進入日月潭過九龍路口左轉後會依序經過文武廟、慈恩塔及玄光寺後到達伊達邵碼頭。",
+      "correct_answer": false
+    },
+    {
+      "id": 104,
+      "question": "駕車由南投市出發走省道往信義鄉沿線會經過集集火車站、玉山國家公園管理處及信義鄉公所。",
+      "correct_answer": false
+    },
+    {
+      "id": 105,
+      "question": "駕車行駛台14甲線景觀公路沿途會經過梅峰、翠峰、福壽山及武嶺。",
+      "correct_answer": false
+    },
+    {
+      "id": 106,
+      "question": "由埔里方向進入日月潭於九龍路口要左轉較快抵達向山遊客中心。",
+      "correct_answer": false
+    },
+    {
+      "id": 107,
+      "question": "台14線廬山溫泉區往花蓮方向目前道路並未開通，無法直接抵達花蓮。",
+      "correct_answer": true
+    },
+    {
+      "id": 108,
+      "question": "行駛台21線新中橫景觀道路前往信義鄉會經過信義鄉地利村天主教堂。",
+      "correct_answer": false
+    },
+    {
+      "id": 109,
+      "question": "南投縣竹藝博物館位於南投縣草屯鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 110,
+      "question": "南投市猴探井天空之橋位於131縣道上。",
+      "correct_answer": false
+    },
+    {
+      "id": 111,
+      "question": "松柏嶺為南投縣知名茶鄉，其地理位置位於南投縣竹山鎮。",
+      "correct_answer": false
+    },
+    {
+      "id": 112,
+      "question": "知名求發財金土地公廟紫南宮位於南投縣集集鎮。",
+      "correct_answer": false
+    }
+  ]
+  
