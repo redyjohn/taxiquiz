@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 首頁 - 最重要！ -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://taiwantaxiquiz.vercel.app/og-image.png</image:loc>
+      <image:title>計程車執業登記證題庫練習系統</image:title>
+    </image:image>
+  </url>
+
+  <!-- 地理類別 - 台中選擇題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/選擇題/台中</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 地理類別 - 台中是非題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/是非題/台中</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 地理類別 - 彰化選擇題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/選擇題/彰化</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 地理類別 - 彰化是非題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/是非題/彰化</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 地理類別 - 南投選擇題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/選擇題/南投</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 地理類別 - 南投是非題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/地理/是非題/南投</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 法規類別 - 選擇題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/法規/選擇題</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 法規類別 - 是非題 -->
+  <url>
+    <loc>https://taiwantaxiquiz.vercel.app/#/法規/是非題</loc>
+    <lastmod>2025-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
+
