@@ -1,8 +1,29 @@
 .home-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 2rem;
-  color: white;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  padding: 0;
+  color: #F8FAFC;
+}
+
+.home-page > .home-header,
+.home-page > .selection-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.home-page > .home-header {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.home-page > .selection-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.home-page > .ad-header,
+.home-page > .ad-footer {
+  padding: 0;
 }
 
 .home-header {
@@ -27,19 +48,20 @@
 }
 
 .selection-step {
-  background: rgba(255, 255, 255, 0.1);
+  background: #1E293B;
   backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 184, 0, 0.2);
 }
 
 .selection-step h3 {
   margin: 0 0 1.5rem 0;
   font-size: 1.5rem;
-  color: white;
+  color: #FFB800;
+  font-weight: 700;
 }
 
 .button-group {
@@ -53,27 +75,28 @@
   padding: 1rem 2rem;
   font-size: 1.1rem;
   font-weight: 600;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid #FFB800;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+  background: #1E293B;
+  color: #F8FAFC;
   cursor: pointer;
   transition: all 0.3s ease;
   min-width: 150px;
 }
 
 .selection-button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.5);
+  background: #FFB800;
+  border-color: #FFB800;
+  color: #0F172A;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.4);
 }
 
 .selection-button.active {
-  background: white;
-  color: #667eea;
-  border-color: white;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+  background: #FFB800;
+  color: #0F172A;
+  border-color: #FFB800;
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.5);
 }
 
 .category-button {
@@ -95,19 +118,19 @@
   padding: 1.5rem 4rem;
   font-size: 1.5rem;
   font-weight: 700;
-  background: white;
-  color: #667eea;
+  background: #FFB800;
+  color: #0F172A;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 16px rgba(255, 184, 0, 0.5);
 }
 
 .start-button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  background: #f8f9fa;
+  box-shadow: 0 6px 20px rgba(255, 184, 0, 0.6);
+  background: #FFC700;
 }
 
 .start-button:active {

@@ -1,0 +1,134 @@
+.ad-banner {
+  width: 100%;
+  margin: 1rem 0;
+  position: relative;
+  background: #1E293B;
+  border: 1px solid rgba(255, 184, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ad-label {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: rgba(0, 212, 255, 0.2);
+  color: #00D4FF;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  z-index: 10;
+  font-weight: 600;
+}
+
+.ad-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+}
+
+.ad-horizontal {
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ad-horizontal .ad-content {
+  min-height: 90px;
+}
+
+.ad-vertical {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ad-vertical .ad-content {
+  min-height: 250px;
+  flex-direction: column;
+}
+
+.ad-square {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ad-square .ad-content {
+  min-height: 300px;
+}
+
+.ad-placeholder {
+  text-align: center;
+  color: #64748B;
+  padding: 2rem;
+}
+
+.ad-placeholder p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.ad-placeholder .ad-size {
+  font-size: 0.75rem;
+  color: #00D4FF;
+  opacity: 0.7;
+}
+
+.ad-placeholder .ad-note {
+  font-size: 0.7rem;
+  color: #64748B;
+  opacity: 0.6;
+  margin-top: 0.5rem;
+}
+
+/* 頁首/頁尾廣告 */
+.ad-header {
+  margin: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.ad-footer {
+  margin: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* 側邊欄廣告 */
+.ad-sidebar {
+  position: sticky;
+  top: 100px;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .ad-banner {
+    margin: 0.5rem 0;
+  }
+
+  .ad-horizontal,
+  .ad-vertical,
+  .ad-square {
+    max-width: 100%;
+  }
+
+  .ad-horizontal .ad-content {
+    min-height: 50px;
+  }
+
+  .ad-vertical .ad-content {
+    min-height: 100px;
+  }
+
+  .ad-square .ad-content {
+    min-height: 200px;
+  }
+}
+

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { questionStructure } from '../data/questionStructure'
+import AdBanner from './AdBanner'
 import './HomePage.css'
 
 function HomePage({ onStartQuiz }) {
@@ -105,6 +106,8 @@ function HomePage({ onStartQuiz }) {
         <p>選擇您要練習的題目範圍</p>
       </header>
 
+      <AdBanner position="horizontal" className="ad-header" />
+
       <div className="selection-container">
         <div className="selection-step">
           <h3>一、選擇類別</h3>
@@ -143,12 +146,16 @@ function HomePage({ onStartQuiz }) {
 
         {selectedCategory && selectedType && selectedRange && (
           <div className="start-section">
+            <AdBanner position="horizontal" />
             <button className="start-button" onClick={handleStart}>
               開始練習
             </button>
+            <AdBanner position="horizontal" />
           </div>
         )}
       </div>
+
+      <AdBanner position="horizontal" className="ad-footer" />
     </div>
   )
 }

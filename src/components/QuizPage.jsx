@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { loadQuestionBank, filterQuestionsByRange, shuffleQuestions } from '../utils/questionLoader'
 import { getQuestionBankPath } from '../data/questionStructure'
 import QuizResult from './QuizResult'
+import AdBanner from './AdBanner'
 import './QuizPage.css'
 
 function QuizPage({ quizConfig, onBack }) {
@@ -192,6 +193,8 @@ function QuizPage({ quizConfig, onBack }) {
           ></div>
         </div>
       </header>
+
+      <AdBanner position="horizontal" className="ad-header" />
 
       <div className="quiz-content">
         <div className="question-card">

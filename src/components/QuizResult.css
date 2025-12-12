@@ -1,19 +1,25 @@
 .result-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 2rem;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  padding: 0;
+}
+
+.result-page > .ad-header,
+.result-page > .ad-footer {
+  padding: 0;
+  margin: 0;
 }
 
 .result-container {
   max-width: 1000px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.1);
+  padding: 3rem;
+  margin: 2rem auto;
+  background: #1E293B;
   backdrop-filter: blur(10px);
   border-radius: 20px;
-  padding: 3rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 184, 0, 0.2);
+  color: #F8FAFC;
 }
 
 .result-header {
@@ -24,11 +30,13 @@
 .result-header h1 {
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #FFB800;
+  font-weight: 700;
 }
 
 .result-header p {
   font-size: 1.2rem;
+  color: #F8FAFC;
   opacity: 0.9;
 }
 
@@ -47,7 +55,8 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.5rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 184, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(255, 184, 0, 0.3);
 }
 
 .score-number {
@@ -70,6 +79,7 @@
 
 .score-detail {
   font-size: 1.2rem;
+  color: #F8FAFC;
   opacity: 0.9;
   margin: 0.5rem 0;
 }
@@ -82,6 +92,8 @@
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  color: #FFB800;
+  font-weight: 700;
 }
 
 .questions-list {
@@ -112,10 +124,10 @@
 }
 
 .question-review-item {
-  background: rgba(255, 255, 255, 0.1);
+  background: #0F172A;
   border-radius: 12px;
   padding: 1.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 184, 0, 0.2);
 }
 
 .question-review-item.correct {
@@ -140,6 +152,7 @@
 .review-question-number {
   font-weight: 600;
   font-size: 1.1rem;
+  color: #F8FAFC;
 }
 
 .review-status {
@@ -151,19 +164,22 @@
 
 .status-correct {
   background: rgba(76, 175, 80, 0.3);
-  color: #c8e6c9;
+  color: #81c784;
+  border: 1px solid #4caf50;
 }
 
 .status-incorrect {
   background: rgba(244, 67, 54, 0.3);
-  color: #ffcdd2;
+  color: #ef5350;
+  border: 1px solid #f44336;
 }
 
 .review-question-text {
   font-size: 1.1rem;
   margin: 1rem 0;
   line-height: 1.6;
-  color: white;
+  color: #F8FAFC;
+  font-weight: 500;
 }
 
 .review-answers {
@@ -182,13 +198,13 @@
 .correct-answer {
   background: rgba(76, 175, 80, 0.2);
   border: 1px solid rgba(76, 175, 80, 0.5);
-  color: #c8e6c9;
+  color: #81c784;
 }
 
 .wrong-answer {
   background: rgba(244, 67, 54, 0.2);
   border: 1px solid rgba(244, 67, 54, 0.5);
-  color: #ffcdd2;
+  color: #ef5350;
 }
 
 .review-answer strong {
@@ -207,20 +223,21 @@
 .perfect-score {
   text-align: center;
   padding: 2rem;
-  background: rgba(76, 175, 80, 0.1);
-  border: 2px solid #4caf50;
+  background: rgba(255, 184, 0, 0.15);
+  border: 2px solid #FFB800;
   border-radius: 12px;
 }
 
 .perfect-score h3 {
   font-size: 2rem;
   margin: 0 0 1rem 0;
-  color: #4caf50;
+  color: #FFB800;
+  font-weight: 700;
 }
 
 .perfect-score p {
   font-size: 1.2rem;
-  color: white;
+  color: #F8FAFC;
   opacity: 0.9;
 }
 
@@ -236,37 +253,41 @@
 }
 
 .action-button.primary {
-  background: white;
-  color: #667eea;
+  background: #FFB800;
+  color: #0F172A;
+  border: 2px solid #FFB800;
 }
 
 .action-button.primary:hover {
-  background: #f8f9fa;
+  background: #FFC700;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.5);
 }
 
 .action-button.secondary {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: #1E293B;
+  color: #F8FAFC;
+  border: 2px solid rgba(255, 184, 0, 0.5);
 }
 
 .action-button.secondary:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 184, 0, 0.2);
+  border-color: #FFB800;
+  color: #FFB800;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(255, 184, 0, 0.3);
 }
 
 .action-button.retry-wrong {
-  background: #ff9800;
-  color: white;
+  background: #00D4FF;
+  color: #0F172A;
+  border: 2px solid #00D4FF;
 }
 
 .action-button.retry-wrong:hover {
-  background: #f57c00;
+  background: #00B8E6;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
 }
 
 @media (max-width: 768px) {

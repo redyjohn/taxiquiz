@@ -1,3 +1,4 @@
+import AdBanner from './AdBanner'
 import './QuizResult.css'
 
 function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWrongQuestions }) {
@@ -14,8 +15,8 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
   )
 
   const getScoreColor = () => {
-    if (score >= 80) return '#4caf50'
-    if (score >= 60) return '#ff9800'
+    if (score >= 80) return '#FFB800'
+    if (score >= 60) return '#00D4FF'
     return '#f44336'
   }
 
@@ -28,6 +29,8 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
 
   return (
     <div className="result-page">
+      <AdBanner position="horizontal" className="ad-header" />
+      
       <div className="result-container">
         <header className="result-header">
           <h1>測驗結果</h1>
@@ -123,6 +126,8 @@ function QuizResult({ questions, answers, quizConfig, onBack, onRetry, onRetryWr
           </button>
         </div>
       </div>
+
+      <AdBanner position="horizontal" className="ad-footer" />
     </div>
   )
 }
