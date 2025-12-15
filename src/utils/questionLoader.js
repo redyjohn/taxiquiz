@@ -56,6 +56,18 @@ export async function loadQuestionBank(path) {
                  !Array.isArray(firstQuestion.options)) {
           data.questions = data.questions.map(convertMultipleChoiceFormat)
         }
+        // 檢查是否需要轉換 correct_answer 為 correctAnswer（法規選擇題的情況）
+        else if (firstQuestion.correct_answer !== undefined && 
+                 firstQuestion.correctAnswer === undefined &&
+                 Array.isArray(firstQuestion.options)) {
+          data.questions = data.questions.map(q => {
+            const { correct_answer, ...rest } = q
+            return {
+              ...rest,
+              correctAnswer: correct_answer
+            }
+          })
+        }
       }
     }
     
