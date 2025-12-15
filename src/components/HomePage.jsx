@@ -19,7 +19,13 @@ function HomePage({ onStartQuiz }) {
 
   const handleTypeSelect = (type) => {
     setSelectedType(type)
-    setSelectedRegion(null)
+    // 如果是法規類別，自動設置 region 為空字串
+    const regions = Object.keys(questionStructure[selectedCategory][type])
+    if (regions.length === 1 && regions[0] === "") {
+      setSelectedRegion("")
+    } else {
+      setSelectedRegion(null)
+    }
     setSelectedRange(null)
   }
 
@@ -74,9 +80,9 @@ function HomePage({ onStartQuiz }) {
     if (!selectedCategory || !selectedType) return null
 
     const regions = Object.keys(questionStructure[selectedCategory][selectedType])
-    const targetRegion = selectedRegion || (regions.length === 1 ? regions[0] : null)
+    const targetRegion = selectedRegion !== null ? selectedRegion : (regions.length === 1 ? regions[0] : null)
     
-    if (!targetRegion) return null
+    if (targetRegion === null || targetRegion === undefined) return null
 
     const ranges = questionStructure[selectedCategory][selectedType][targetRegion]
 
