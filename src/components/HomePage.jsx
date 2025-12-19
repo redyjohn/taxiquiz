@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { questionStructure } from '../data/questionStructure'
+import AdBanner from './AdBanner'
 import './HomePage.css'
 
 function HomePage({ onStartQuiz }) {
@@ -154,6 +155,15 @@ function HomePage({ onStartQuiz }) {
             </button>
           </div>
         )}
+      </div>
+
+      {/* 首頁底部廣告 */}
+      <div className="home-footer-ad">
+        <AdBanner 
+          position="horizontal" 
+          adSlot="你的970x90廣告ID" 
+          className="home-ad-banner"
+        />
       </div>
     </div>
   )

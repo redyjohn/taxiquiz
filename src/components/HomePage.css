@@ -137,6 +137,21 @@
   transform: translateY(-1px);
 }
 
+.home-footer-ad {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: rgba(30, 41, 59, 0.5);
+  border-top: 1px solid rgba(255, 184, 0, 0.1);
+}
+
+.home-footer-ad .ad-banner {
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .home-page {
     padding: 1rem;
@@ -156,6 +171,11 @@
 
   .selection-button {
     width: 100%;
+  }
+
+  .home-footer-ad {
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
   }
 }
 
