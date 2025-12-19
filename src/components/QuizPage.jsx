@@ -18,27 +18,102 @@ function QuizPage({ quizConfig, onBack }) {
     loadQuestions()
   }, [])
 
+  const buildSimulatedRegulationsQuestions = async () => {
+    const mcPath = getQuestionBankPath('法規', '選擇題', '')
+    const tfPath = getQuestionBankPath('法規', '是非題', '')
+    const [mcBank, tfBank] = await Promise.all([
+      loadQuestionBank(mcPath),
+      loadQuestionBank(tfPath)
+    ])
+
+    const mcCount = 30
+    const tfCount = 20
+
+    // 需求：1-30 題固定為選擇題、31-50 題固定為是非題（各自隨機抽題/打亂）
+    const sampledMc = shuffleQuestions(mcBank.questions)
+      .slice(0, Math.min(mcCount, mcBank.questions.length))
+      .map((q) => ({ ...q, _source: '選擇題' }))
+    const sampledTf = shuffleQuestions(tfBank.questions)
+      .slice(0, Math.min(tfCount, tfBank.questions.length))
+      .map((q) => ({ ...q, _source: '是非題' }))
+
+    const merged = [...sampledMc, ...sampledTf]
+
+    // 重新編號，避免不同題庫 id 衝突（答案紀錄用 id 當 key）
+    return merged.map((q, idx) => ({
+      ...q,
+      id: idx + 1
+    }))
+  }
+
+  const buildSimulatedGeographyQuestions = async () => {
+    // 載入三個地區的選擇題和是非題
+    const mcPaths = [
+      getQuestionBankPath('地理', '選擇題', '彰化'),
+      getQuestionBankPath('地理', '選擇題', '南投'),
+      getQuestionBankPath('地理', '選擇題', '台中')
+    ]
+    const tfPaths = [
+      getQuestionBankPath('地理', '是非題', '彰化'),
+      getQuestionBankPath('地理', '是非題', '南投'),
+      getQuestionBankPath('地理', '是非題', '台中')
+    ]
+
+    const [mcBanks, tfBanks] = await Promise.all([
+      Promise.all(mcPaths.map(path => loadQuestionBank(path))),
+      Promise.all(tfPaths.map(path => loadQuestionBank(path)))
+    ])
+
+    // 合併所有選擇題和是非題
+    const allMcQuestions = mcBanks.flatMap(bank => bank.questions)
+    const allTfQuestions = tfBanks.flatMap(bank => bank.questions)
+
+    const mcCount = 30
+    const tfCount = 20
+
+    // 需求：1-30 題固定為選擇題、31-50 題固定為是非題（各自隨機抽題/打亂）
+    const sampledMc = shuffleQuestions(allMcQuestions)
+      .slice(0, Math.min(mcCount, allMcQuestions.length))
+      .map((q) => ({ ...q, _source: '選擇題' }))
+    const sampledTf = shuffleQuestions(allTfQuestions)
+      .slice(0, Math.min(tfCount, allTfQuestions.length))
+      .map((q) => ({ ...q, _source: '是非題' }))
+
+    const merged = [...sampledMc, ...sampledTf]
+
+    // 重新編號，避免不同題庫 id 衝突（答案紀錄用 id 當 key）
+    return merged.map((q, idx) => ({
+      ...q,
+      id: idx + 1
+    }))
+  }
+
   const loadQuestions = async () => {
     try {
       setLoading(true)
       setError(null)
-      
-      const path = getQuestionBankPath(
-        quizConfig.category,
-        quizConfig.type,
-        quizConfig.region
-      )
-      
+
+      // 法規 -> 模擬測驗：隨機抽 30 選擇 + 20 是非（共 50 題）
+      if (quizConfig.category === '法規' && quizConfig.type === '模擬測驗') {
+        const simulated = await buildSimulatedRegulationsQuestions()
+        setQuestions(simulated)
+        setLoading(false)
+        return
+      }
+
+      // 地理 -> 模擬測驗：從三個地區隨機抽 30 選擇 + 20 是非（共 50 題）
+      if (quizConfig.category === '地理' && quizConfig.type === '模擬測驗') {
+        const simulated = await buildSimulatedGeographyQuestions()
+        setQuestions(simulated)
+        setLoading(false)
+        return
+      }
+
+      const path = getQuestionBankPath(quizConfig.category, quizConfig.type, quizConfig.region)
+
       const questionBank = await loadQuestionBank(path)
-      const filtered = filterQuestionsByRange(
-        questionBank.questions,
-        quizConfig.range.start,
-        quizConfig.range.end
-      )
-      
-      // 可選：打亂題目順序
-      // const shuffled = shuffleQuestions(filtered)
-      
+      const filtered = filterQuestionsByRange(questionBank.questions, quizConfig.range.start, quizConfig.range.end)
+
       setQuestions(filtered)
       setLoading(false)
     } catch (err) {
@@ -49,11 +124,12 @@ function QuizPage({ quizConfig, onBack }) {
 
   const handleAnswerSelect = (questionId, answerIndex) => {
     if (isAnswered) return
-    
-    setAnswers({
+
+    const nextAnswers = {
       ...answers,
       [questionId]: answerIndex
-    })
+    }
+    setAnswers(nextAnswers)
     setIsAnswered(true)
     
     // 自動跳轉到下一題
@@ -63,7 +139,7 @@ function QuizPage({ quizConfig, onBack }) {
         setCurrentIndex(nextIndex)
         // 檢查下一題是否已回答
         const nextQuestionId = questions[nextIndex].id
-        setIsAnswered(answers[nextQuestionId] !== undefined)
+        setIsAnswered(nextAnswers[nextQuestionId] !== undefined)
       } else {
         // 最後一題，自動提交
         setShowResult(true)
