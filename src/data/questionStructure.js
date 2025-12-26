@@ -29,7 +29,8 @@ export const questionStructure = {
         { start: 51, end: 100, label: "51-100題" }
       ],
       南投: [
-        { start: 1, end: 56, label: "1-56題" }
+        { start: 1, end: 56, label: "1-56題" },
+        { start: 57, end: 112, label: "57-112題" }
       ]
     },
     模擬測驗: {
