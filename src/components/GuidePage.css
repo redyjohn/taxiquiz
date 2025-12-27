@@ -1,0 +1,288 @@
+.guide-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  color: #F8FAFC;
+  padding-bottom: 2rem;
+}
+
+.guide-header {
+  background: #1E293B;
+  backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(255, 184, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.guide-header .back-button {
+  background: #1E293B;
+  border: 2px solid #FFB800;
+  color: #F8FAFC;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.guide-header .back-button:hover {
+  background: #FFB800;
+  color: #0F172A;
+}
+
+.guide-header h1 {
+  font-size: 2rem;
+  color: #FFB800;
+  font-weight: 700;
+  margin: 0;
+}
+
+.guide-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* 類別選擇 */
+.category-selection,
+.type-selection {
+  text-align: center;
+}
+
+.category-selection h2,
+.type-selection h2 {
+  font-size: 2rem;
+  color: #FFB800;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.button-group {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category-button,
+.type-button {
+  background: #1E293B;
+  border: 2px solid rgba(255, 184, 0, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem 3rem;
+  color: #F8FAFC;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.category-button:hover,
+.type-button:hover {
+  border-color: #FFB800;
+  background: rgba(255, 184, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(255, 184, 0, 0.2);
+}
+
+.back-link-button {
+  background: transparent;
+  border: none;
+  color: #FFB800;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.back-link-button:hover {
+  color: #FFC700;
+  text-decoration: underline;
+}
+
+/* 題目表格 */
+.questions-view {
+  width: 100%;
+}
+
+.questions-table-container h3 {
+  font-size: 1.8rem;
+  color: #FFB800;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.question-count {
+  font-size: 1.2rem;
+  color: #F8FAFC;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: #1E293B;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 184, 0, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.questions-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.questions-table thead {
+  background: rgba(255, 184, 0, 0.1);
+}
+
+.questions-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #FFB800;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 184, 0, 0.3);
+}
+
+.questions-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #F8FAFC;
+}
+
+.questions-table tbody tr:hover {
+  background: rgba(255, 184, 0, 0.05);
+}
+
+.col-id {
+  width: 80px;
+  text-align: center;
+  font-weight: 600;
+  color: #FFB800;
+}
+
+.col-question {
+  min-width: 300px;
+  line-height: 1.6;
+}
+
+.col-options {
+  min-width: 250px;
+}
+
+.option-item {
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  line-height: 1.5;
+}
+
+.option-item:last-child {
+  margin-bottom: 0;
+}
+
+.col-answer {
+  width: 120px;
+  text-align: center;
+}
+
+.correct-answer-badge {
+  display: inline-block;
+  background: #FFB800;
+  color: #0F172A;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* 載入和錯誤狀態 */
+.loading-container,
+.error-container {
+  text-align: center;
+  padding: 3rem;
+  background: #1E293B;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 184, 0, 0.2);
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 184, 0, 0.3);
+  border-top-color: #FFB800;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-container {
+  color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .guide-header {
+    padding: 1rem;
+  }
+
+  .guide-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .guide-content {
+    padding: 1rem;
+  }
+
+  .category-selection h2,
+  .type-selection h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .button-group {
+    gap: 1rem;
+  }
+
+  .category-button,
+  .type-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    min-width: 120px;
+  }
+
+  .questions-table-container h3 {
+    font-size: 1.4rem;
+  }
+
+  .table-wrapper {
+    border-radius: 12px;
+  }
+
+  .questions-table th,
+  .questions-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .col-question {
+    min-width: 200px;
+  }
+
+  .col-options {
+    min-width: 180px;
+  }
+}

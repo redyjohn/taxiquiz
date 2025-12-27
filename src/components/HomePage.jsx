@@ -3,7 +3,7 @@ import { questionStructure } from '../data/questionStructure'
 import AdBanner from './AdBanner'
 import './HomePage.css'
 
-function HomePage({ onStartQuiz }) {
+function HomePage({ onStartQuiz, onBack }) {
   const [selectedCategory, setSelectedCategory] = useState(null)
   const [selectedType, setSelectedType] = useState(null)
   const [selectedRegion, setSelectedRegion] = useState(null)
@@ -108,6 +108,11 @@ function HomePage({ onStartQuiz }) {
   return (
     <div className="home-page">
       <header className="home-header">
+        {onBack && (
+          <button className="back-button" onClick={onBack}>
+            ← 返回首頁
+          </button>
+        )}
         <h1>計程車執業登記證 題庫練習系統</h1>
         <p>選擇您要練習的題目範圍</p>
       </header>

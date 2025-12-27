@@ -1,0 +1,129 @@
+.welcome-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  color: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.welcome-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.welcome-header h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  color: #FFB800;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-header p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.welcome-content {
+  width: 100%;
+  max-width: 900px;
+}
+
+.welcome-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.welcome-button {
+  background: #1E293B;
+  border: 2px solid rgba(255, 184, 0, 0.3);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  color: #F8FAFC;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  min-height: 200px;
+  justify-content: center;
+}
+
+.welcome-button:hover {
+  border-color: #FFB800;
+  background: rgba(255, 184, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 48px rgba(255, 184, 0, 0.2);
+}
+
+.welcome-button:active {
+  transform: translateY(-2px);
+}
+
+.button-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.button-content h2 {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  color: #FFB800;
+  font-weight: 700;
+}
+
+.button-content p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.guide-button:hover .button-content h2,
+.practice-button:hover .button-content h2,
+.notice-button:hover .button-content h2 {
+  color: #FFC700;
+}
+
+@media (max-width: 768px) {
+  .welcome-header h1 {
+    font-size: 2rem;
+  }
+
+  .welcome-header p {
+    font-size: 1.1rem;
+  }
+
+  .welcome-buttons {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .welcome-button {
+    padding: 2rem 1.5rem;
+    min-height: 160px;
+  }
+
+  .button-icon {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .button-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .button-content p {
+    font-size: 0.9rem;
+  }
+}
+

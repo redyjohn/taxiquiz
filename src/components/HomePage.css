@@ -29,6 +29,27 @@
 .home-header {
   text-align: center;
   margin-bottom: 3rem;
+  position: relative;
+}
+
+.home-header .back-button {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  background: #1E293B;
+  border: 2px solid #FFB800;
+  color: #F8FAFC;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.home-header .back-button:hover {
+  background: #FFB800;
+  color: #0F172A;
 }
 
 .home-header h1 {
@@ -155,6 +176,15 @@
 @media (max-width: 768px) {
   .home-page {
     padding: 1rem;
+  }
+
+  .home-header .back-button {
+    position: static;
+    margin-bottom: 1rem;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home-header h1 {
