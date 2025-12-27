@@ -257,17 +257,19 @@ function QuizPage({ quizConfig, onBack }) {
   return (
     <div className="quiz-page">
       <header className="quiz-header">
-        <button className="back-button" onClick={onBack}>
-          ← 返回
-        </button>
-        <div className="quiz-info">
-          <h2>
-            {quizConfig.category} - {quizConfig.type}
-            {quizConfig.region && ` - ${quizConfig.region}`}
-          </h2>
-          <p className="progress">
-            第 {currentIndex + 1} 題 / 共 {questions.length} 題
-          </p>
+        <div className="quiz-header-content">
+          <button className="back-button" onClick={onBack}>
+            ← 返回
+          </button>
+          <div className="quiz-info">
+            <h2>
+              {quizConfig.category} - {quizConfig.type}
+              {quizConfig.region && ` - ${quizConfig.region}`}
+            </h2>
+            <p className="progress">
+              第 {currentIndex + 1} 題 / 共 {questions.length} 題
+            </p>
+          </div>
         </div>
         <div className="progress-bar">
           <div
