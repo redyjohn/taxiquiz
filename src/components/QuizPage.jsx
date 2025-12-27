@@ -123,35 +123,43 @@ function QuizPage({ quizConfig, onBack }) {
   }
 
   const handleAnswerSelect = (questionId, answerIndex) => {
-    if (isAnswered) return
-
+    // 允許用戶隨時更換答案
     const nextAnswers = {
       ...answers,
       [questionId]: answerIndex
     }
     setAnswers(nextAnswers)
-    setIsAnswered(true)
     
-    // 自動跳轉到下一題
-    setTimeout(() => {
-      if (currentIndex < questions.length - 1) {
-        const nextIndex = currentIndex + 1
-        setCurrentIndex(nextIndex)
-        // 檢查下一題是否已回答
-        const nextQuestionId = questions[nextIndex].id
-        setIsAnswered(nextAnswers[nextQuestionId] !== undefined)
-      } else {
-        // 最後一題，自動提交
-        setShowResult(true)
-      }
-    }, 100) // 100ms 短延遲，確保狀態更新完成
+    // 更新當前題目的已回答狀態（用於判斷是否可以進入下一題）
+    const currentQuestionId = questions[currentIndex].id
+    if (questionId === currentQuestionId) {
+      setIsAnswered(true)
+      
+      // 保存當前索引和題目長度，避免閉包問題
+      const currentIdx = currentIndex
+      const totalQuestions = questions.length
+      
+      // 自動跳轉到下一題
+      setTimeout(() => {
+        if (currentIdx < totalQuestions - 1) {
+          const nextIndex = currentIdx + 1
+          setCurrentIndex(nextIndex)
+          // 檢查下一題是否已回答
+          const nextQuestionId = questions[nextIndex].id
+          setIsAnswered(nextAnswers[nextQuestionId] !== undefined)
+        } else {
+          // 最後一題，自動提交
+          setShowResult(true)
+        }
+      }, 300) // 300ms 延遲，讓用戶看到選擇效果後再跳轉
+    }
   }
 
   const handleNext = () => {
     if (currentIndex < questions.length - 1) {
       const nextIndex = currentIndex + 1
       setCurrentIndex(nextIndex)
-      // 檢查下一題是否已回答
+      // 檢查下一題是否已回答（用於判斷是否可以進入下一題）
       const nextQuestionId = questions[nextIndex].id
       setIsAnswered(answers[nextQuestionId] !== undefined)
     } else {
@@ -164,7 +172,7 @@ function QuizPage({ quizConfig, onBack }) {
     if (currentIndex > 0) {
       const prevIndex = currentIndex - 1
       setCurrentIndex(prevIndex)
-      // 檢查上一題是否已回答
+      // 檢查上一題是否已回答（用於判斷是否可以進入下一題）
       const prevQuestionId = questions[prevIndex].id
       setIsAnswered(answers[prevQuestionId] !== undefined)
     }
@@ -245,7 +253,6 @@ function QuizPage({ quizConfig, onBack }) {
 
   const currentQuestion = questions[currentIndex]
   const selectedAnswer = answers[currentQuestion.id]
-  const isCorrect = selectedAnswer === currentQuestion.correctAnswer
 
   return (
     <div className="quiz-page">
@@ -294,7 +301,6 @@ function QuizPage({ quizConfig, onBack }) {
                     isSelected ? 'selected' : ''
                   }`}
                   onClick={() => handleAnswerSelect(currentQuestion.id, index)}
-                  disabled={isAnswered}
                 >
                   <span className="option-label">
                     {String.fromCharCode(65 + index)}.
@@ -319,7 +325,7 @@ function QuizPage({ quizConfig, onBack }) {
             <button
               className="submit-button"
               onClick={handleSubmit}
-              disabled={!isAnswered}
+              disabled={selectedAnswer === undefined}
             >
               完成測驗
             </button>
@@ -327,7 +333,7 @@ function QuizPage({ quizConfig, onBack }) {
             <button
               className="nav-button primary"
               onClick={handleNext}
-              disabled={!isAnswered}
+              disabled={selectedAnswer === undefined}
             >
               下一題
             </button>
