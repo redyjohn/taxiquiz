@@ -62,9 +62,14 @@ export async function loadQuestionBank(path) {
                  Array.isArray(firstQuestion.options)) {
           data.questions = data.questions.map(q => {
             const { correct_answer, ...rest } = q
+            // 將 1-based 索引轉換為 0-based 索引（correct_answer: 2 表示第二個選項，應轉為索引 1）
+            let correctAnswerIndex = correct_answer
+            if (typeof correct_answer === 'number' && correct_answer > 0) {
+              correctAnswerIndex = correct_answer - 1
+            }
             return {
               ...rest,
-              correctAnswer: correct_answer
+              correctAnswer: correctAnswerIndex
             }
           })
         }
