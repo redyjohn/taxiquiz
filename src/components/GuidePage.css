@@ -3,6 +3,10 @@
   background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
   color: #F8FAFC;
   padding-bottom: 2rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .guide-header {
@@ -133,12 +137,21 @@
   border-radius: 16px;
   border: 1px solid rgba(255, 184, 0, 0.2);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .questions-table {
   width: 100%;
   border-collapse: collapse;
   min-width: 800px;
+}
+
+/* 桌面版保持表格布局 */
+@media (min-width: 769px) {
+  .questions-table {
+    min-width: 800px;
+  }
 }
 
 .questions-table thead {
@@ -245,6 +258,9 @@
 
   .guide-content {
     padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .category-selection h2,
@@ -264,25 +280,131 @@
     min-width: 120px;
   }
 
-  .questions-table-container h3 {
-    font-size: 1.4rem;
+  .questions-table-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
+  .questions-table-container h3 {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+  }
+
+  .question-count {
+    font-size: 1rem;
+  }
+
+  /* 手機版：將表格改為卡片式布局 */
   .table-wrapper {
     border-radius: 12px;
+    overflow: visible;
+    width: 100%;
+    max-width: 100%;
   }
 
-  .questions-table th,
+  .questions-table {
+    display: block;
+    width: 100%;
+    min-width: auto;
+  }
+
+  .questions-table thead {
+    display: none; /* 隱藏表頭 */
+  }
+
+  .questions-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .questions-table tr {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 184, 0, 0.2);
+    box-sizing: border-box;
+  }
+
   .questions-table td {
-    padding: 0.75rem 0.5rem;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0.5rem 0;
+    text-align: left;
+    border: none;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .questions-table td.col-id {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFB800;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 184, 0, 0.3);
+  }
+
+  .questions-table td.col-id::before {
+    content: "題號：";
+    font-weight: 600;
+  }
+
+  .questions-table td.col-question {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .questions-table td.col-options {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .questions-table td.col-options::before {
+    content: "選項：";
+    display: block;
+    font-weight: 600;
+    color: #FFB800;
+    margin-bottom: 0.5rem;
     font-size: 0.9rem;
   }
 
-  .col-question {
-    min-width: 200px;
+  .questions-table td.col-answer {
+    text-align: left;
+    padding-top: 0.5rem;
   }
 
-  .col-options {
-    min-width: 180px;
+  .questions-table td.col-answer::before {
+    content: "正確答案：";
+    display: inline-block;
+    font-weight: 600;
+    color: #FFB800;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .option-item {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .correct-answer-badge {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
   }
 }
