@@ -66,3 +66,4 @@ function SchemaScript({ type = 'website', articleData = null }) {
 
 export default SchemaScript
 
+
