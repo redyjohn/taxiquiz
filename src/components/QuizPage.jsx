@@ -26,10 +26,10 @@ function QuizPage({ quizConfig, onBack }) {
       loadQuestionBank(tfPath)
     ])
 
-    const mcCount = 30
-    const tfCount = 20
+    const mcCount = 25
+    const tfCount = 25
 
-    // 需求：1-30 題固定為選擇題、31-50 題固定為是非題（各自隨機抽題/打亂）
+    // 需求：1-25 題固定為選擇題、26-50 題固定為是非題（各自隨機抽題/打亂）
     const sampledMc = shuffleQuestions(mcBank.questions)
       .slice(0, Math.min(mcCount, mcBank.questions.length))
       .map((q) => ({ ...q, _source: '選擇題' }))
@@ -68,10 +68,10 @@ function QuizPage({ quizConfig, onBack }) {
     const allMcQuestions = mcBanks.flatMap(bank => bank.questions)
     const allTfQuestions = tfBanks.flatMap(bank => bank.questions)
 
-    const mcCount = 30
-    const tfCount = 20
+    const mcCount = 25
+    const tfCount = 25
 
-    // 需求：1-30 題固定為選擇題、31-50 題固定為是非題（各自隨機抽題/打亂）
+    // 需求：1-25 題固定為選擇題、26-50 題固定為是非題（各自隨機抽題/打亂）
     const sampledMc = shuffleQuestions(allMcQuestions)
       .slice(0, Math.min(mcCount, allMcQuestions.length))
       .map((q) => ({ ...q, _source: '選擇題' }))
@@ -93,7 +93,7 @@ function QuizPage({ quizConfig, onBack }) {
       setLoading(true)
       setError(null)
 
-      // 法規 -> 模擬測驗：隨機抽 30 選擇 + 20 是非（共 50 題）
+      // 法規 -> 模擬測驗：隨機抽 25 選擇 + 25 是非（共 50 題）
       if (quizConfig.category === '法規' && quizConfig.type === '模擬測驗') {
         const simulated = await buildSimulatedRegulationsQuestions()
         setQuestions(simulated)
@@ -101,7 +101,7 @@ function QuizPage({ quizConfig, onBack }) {
         return
       }
 
-      // 地理 -> 模擬測驗：從三個地區隨機抽 30 選擇 + 20 是非（共 50 題）
+      // 地理 -> 模擬測驗：從三個地區隨機抽 25 選擇 + 25 是非（共 50 題）
       if (quizConfig.category === '地理' && quizConfig.type === '模擬測驗') {
         const simulated = await buildSimulatedGeographyQuestions()
         setQuestions(simulated)
