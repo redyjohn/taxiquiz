@@ -6,6 +6,14 @@ function WelcomePage({ onNavigate }) {
       <header className="welcome-header">
         <h1>計程車執業登記證測驗</h1>
         <p>歡迎使用線上測驗系統</p>
+        <div className="disclaimer">
+          <p>
+            使用本程式之前請先至「內政部警政署計程車駕駛人服務網」下載最新題庫，核對「題庫導讀」之正確答案與題目內容，如有錯誤歡迎寄信告訴我們，我們將會盡快修正錯誤，祝大家金榜題名。
+          </p>
+          <p className="contact-email">
+            聯絡信箱：<a href="mailto:feworking1008@gmail.com">feworking1008@gmail.com</a>
+          </p>
+        </div>
       </header>
 
       <div className="welcome-content">
@@ -49,6 +57,7 @@ function WelcomePage({ onNavigate }) {
 }
 
 export default WelcomePage
+
 
 
 

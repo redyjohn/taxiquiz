@@ -22,10 +22,48 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.welcome-header p {
+.welcome-header > p {
   font-size: 1.3rem;
   opacity: 0.9;
   margin: 0;
+}
+
+.disclaimer {
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 184, 0, 0.2);
+  border: 1px solid rgba(255, 184, 0, 0.5);
+  border-radius: 12px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disclaimer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.disclaimer a {
+  color: #FFB800;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.disclaimer a:hover {
+  color: #FFC700;
+  text-decoration: underline;
+}
+
+.contact-email {
+  margin-top: 0.75rem !important;
+  font-weight: 500;
+}
+
+.contact-email a {
+  font-weight: 600;
 }
 
 .welcome-content {
@@ -99,8 +137,17 @@
     font-size: 2rem;
   }
 
-  .welcome-header p {
+  .welcome-header > p {
     font-size: 1.1rem;
+  }
+
+  .disclaimer {
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+  }
+
+  .disclaimer p {
+    font-size: 0.85rem;
   }
 
   .welcome-buttons {
@@ -126,6 +173,7 @@
     font-size: 0.9rem;
   }
 }
+
 
 
 

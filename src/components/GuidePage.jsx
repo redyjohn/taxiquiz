@@ -10,7 +10,7 @@ function GuidePage({ onBack }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
-  const categories = ['法規', '台中', '彰化', '南投']
+  const categories = ['法規', '臺北市', '台中', '彰化', '南投']
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category)

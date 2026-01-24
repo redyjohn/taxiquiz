@@ -1,0 +1,884 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "臺北大學三峽校區靠近北二高哪一個交流道",
+        "options": [
+          "三鶯交流道",
+          "汐止交流道",
+          "土城交流道"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 2,
+        "question": "臺北市文山運動中心位於",
+        "options": [
+          "羅斯福路5段",
+          "萬芳路2段",
+          "興隆路3段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 3,
+        "question": "財政部臺北國稅局士林稽徵所位於",
+        "options": [
+          "中山北路",
+          "小北街",
+          "美崙街"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 4,
+        "question": "新光吳火獅紀念醫院位於",
+        "options": [
+          "新光路",
+          "文昌路",
+          "士東路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 5,
+        "question": "臺北市中山運動中心位於",
+        "options": [
+          "中山北路2段",
+          "大直街",
+          "民族東路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 6,
+        "question": "臺北市私立復興實驗高級中學位於",
+        "options": [
+          "復興南路1段",
+          "光復南路",
+          "敦化南路1段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 7,
+        "question": "原住民族電視臺位於臺北市",
+        "options": [
+          "八德路3段",
+          "重陽路",
+          "瑞光路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 8,
+        "question": "臺北市民族實驗國民中學位於",
+        "options": [
+          "民族東路",
+          "羅斯福路4段",
+          "基隆路3段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 9,
+        "question": "國立傳統藝術中心臺灣音樂館位於",
+        "options": [
+          "福國路",
+          "文林路",
+          "福華路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 10,
+        "question": "臺北市私立泰北中學位於",
+        "options": [
+          "仰德大道",
+          "福林路",
+          "雨農路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 11,
+        "question": "臺北南山廣場位於",
+        "options": [
+          "松智路",
+          "松壽路",
+          "松高路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 12,
+        "question": "臺北市士林高級職業學校位於",
+        "options": [
+          "士商路",
+          "中山北路",
+          "文林北路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 13,
+        "question": "臺北市士林區忠勇街與下列哪一路段連接",
+        "options": [
+          "福林路",
+          "文林路",
+          "中正路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 14,
+        "question": "捷運中山國中站位於",
+        "options": [
+          "中山北路",
+          "忠孝東路",
+          "復興北路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "臺北市士林運動中心",
+        "options": [
+          "士商路",
+          "文林路",
+          "大南路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 16,
+        "question": "臺北市立聯合醫院陽明院區位於",
+        "options": [
+          "雨聲街",
+          "忠誠路2段",
+          "德行東路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 17,
+        "question": "台北花卉村於",
+        "options": [
+          "雨農路",
+          "延平北路7段",
+          "福林路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 18,
+        "question": "臺北市內湖運動中心位於",
+        "options": [
+          "洲子街",
+          "瑞光路",
+          "內湖路1段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 19,
+        "question": "最高法院位於",
+        "options": [
+          "博愛路",
+          "徐州路",
+          "長沙街"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 20,
+        "question": "國立臺灣大學城中校區在",
+        "options": [
+          "貴陽街一段",
+          "徐州路",
+          "延平南路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 21,
+        "question": "交通部中央氣象署在",
+        "options": [
+          "青島東路",
+          "青島西路",
+          "公園路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "臺北市立建安國小在",
+        "options": [
+          "信義路2段",
+          "大安路2段",
+          "濟南路2段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "臺北市大同運動中心位於",
+        "options": [
+          "延平北3段",
+          "西寧北路",
+          "大龍街"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "公務人力發展學院福華國際文教會館位於",
+        "options": [
+          "新生南路3段",
+          "仁愛路3段",
+          "中山北路3段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 25,
+        "question": "臺北市私立開平餐飲職業學校位於",
+        "options": [
+          "和平東路2段",
+          "信義路4段",
+          "復興南路2段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 26,
+        "question": "臺北市中正運動中心位於",
+        "options": [
+          "信義路1段",
+          "仁愛路2段",
+          "愛國東路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 27,
+        "question": "何者不在忠孝東路",
+        "options": [
+          "忠孝國小",
+          "臺北科技大學",
+          "臺灣科技大學"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 28,
+        "question": "國立臺北科技大學位於",
+        "options": [
+          "基隆路2段",
+          "基隆路3段",
+          "忠孝東路3段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 29,
+        "question": "國立師大附中位於信義路",
+        "options": [
+          "1段",
+          "2段",
+          "3段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "下列何者非為連接臺北市與新北市的橋樑",
+        "options": [
+          "中正橋",
+          "中山橋",
+          "中興橋"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 31,
+        "question": "臺北市信義路和那一條路沒有交叉",
+        "options": [
+          "永康街",
+          "金華街",
+          "杭州南路2段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 32,
+        "question": "經濟部國際貿易局在",
+        "options": [
+          "襄陽路",
+          "湖口街",
+          "衡陽路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 33,
+        "question": "臺北市華山藝文特區在",
+        "options": [
+          "忠孝西路",
+          "八德路",
+          "金山南路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 34,
+        "question": "中央銀行位於",
+        "options": [
+          "仁愛路1段",
+          "羅斯福路1段",
+          "青島西路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 35,
+        "question": "經濟部在",
+        "options": [
+          "福州街",
+          "臨沂街",
+          "南昌路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 36,
+        "question": "中央選舉委員會在",
+        "options": [
+          "青島西路",
+          "濟南路",
+          "徐州路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 37,
+        "question": "行政院主計總處廣博大樓位於",
+        "options": [
+          "廣州街",
+          "忠孝東路1段",
+          "徐州路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 38,
+        "question": "臺北市市定古蹟「萬華林宅」位於",
+        "options": [
+          "貴陽街1段",
+          "大理街",
+          "西園路1段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 39,
+        "question": "臺北市立龍山國小位於",
+        "options": [
+          "環河南路1段",
+          "桂林路",
+          "和平西路3段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 40,
+        "question": "臺北市立萬大國小位於",
+        "options": [
+          "東園街",
+          "萬大路",
+          "西園路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 41,
+        "question": "臺北市立老松國小位於",
+        "options": [
+          "康定路",
+          "桂林路",
+          "西園路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 42,
+        "question": "臺北市立雙連國小位於",
+        "options": [
+          "錦西街",
+          "涼州街",
+          "寧夏路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 43,
+        "question": "北投溫泉博物館位於",
+        "options": [
+          "七星街",
+          "溫泉路",
+          "中山路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 44,
+        "question": "大倉久和大飯店位於臺北市",
+        "options": [
+          "南京東路1段",
+          "中山北路2段",
+          "民生東路1段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 45,
+        "question": "臺北市大同區公所位於",
+        "options": [
+          "昌吉街",
+          "重慶北路",
+          "承德路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 46,
+        "question": "國立臺灣科學教育館位於臺北市",
+        "options": [
+          "中正路",
+          "美崙街",
+          "士商路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 47,
+        "question": "海關博物館位於",
+        "options": [
+          "塔城街",
+          "南京西路",
+          "延平北路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 48,
+        "question": "臺北市IN89豪華數位影城位於",
+        "options": [
+          "武昌街2段",
+          "漢口街2段",
+          "峨嵋街"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 49,
+        "question": "臺北市立忠孝國中位於",
+        "options": [
+          "西寧北路",
+          "長安西路",
+          "梧州街"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 50,
+        "question": "下列那一條路不經過臺北市南港區",
+        "options": [
+          "研究院路",
+          "辛亥路",
+          "忠孝東路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 51,
+        "question": "臺北市忠孝東路與那一條路有相交",
+        "options": [
+          "仁愛路",
+          "研究院路",
+          "南港路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 52,
+        "question": "那一座橋非連接南港和內湖區的橋",
+        "options": [
+          "成功橋",
+          "南湖大橋",
+          "麥帥一橋"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 53,
+        "question": "那一條路和其他兩條皆沒有相交",
+        "options": [
+          "向陽路",
+          "重陽路",
+          "研究院路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 54,
+        "question": "興中路南港高工沒有與那一條路相交",
+        "options": [
+          "興華路",
+          "南港路一段",
+          "重陽路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 55,
+        "question": "臺北市花卉產銷股份有限公司(臺北花市)位於",
+        "options": [
+          "新湖一路",
+          "新湖二路",
+          "新湖三路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 56,
+        "question": "康寧大學臺北校區位於",
+        "options": [
+          "康寧路1段",
+          "康寧路2段",
+          "康寧路3段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 57,
+        "question": "臺北市環山路與那一段路沒有相交",
+        "options": [
+          "內湖路",
+          "堤頂大道",
+          "港墘路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 58,
+        "question": "下列那一個公園不在臺北市內湖區",
+        "options": [
+          "美崙公園",
+          "碧湖公園",
+          "康寧公園"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 59,
+        "question": "下列那一個地點離臺北市政府警察局內湖分局最近",
+        "options": [
+          "三民國中",
+          "新湖國小",
+          "三軍總醫院"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 60,
+        "question": "臺北市政府警察局北投分局位於",
+        "options": [
+          "大業路",
+          "中央北路1段",
+          "北投路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 61,
+        "question": "下列那一個地點離臺北榮民總醫院最近",
+        "options": [
+          "陽明交通大學",
+          "台北美國學校",
+          "臺北市立臺北特殊教育學校"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 62,
+        "question": "下列那一條路不位於臺北市北投區",
+        "options": [
+          "泉源路",
+          "復興路",
+          "至善路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 63,
+        "question": "臺北市松山運動中心位於",
+        "options": [
+          "民生東路",
+          "敦化北路",
+          "光復北路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 64,
+        "question": "臺北市立關渡醫院位於",
+        "options": [
+          "知行路",
+          "關渡路",
+          "大度路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 65,
+        "question": "下列那一條路連接臺北市北投區與士林區",
+        "options": [
+          "文林北路",
+          "大度路",
+          "復興三路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 66,
+        "question": "臺北醫學大學位於臺北市",
+        "options": [
+          "信義路6段",
+          "吳興街",
+          "信義路5段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 67,
+        "question": "臺北W飯店位於臺北市",
+        "options": [
+          "松壽路",
+          "松仁路",
+          "忠孝東路5段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 68,
+        "question": "臺北松山機場最靠近",
+        "options": [
+          "民生東路5段",
+          "松山路",
+          "民權東路4段"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 69,
+        "question": "臺北市信義運動中心位於",
+        "options": [
+          "吳興街",
+          "松勤街",
+          "松智路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 70,
+        "question": "臺北市立永春高中位於臺北市",
+        "options": [
+          "永吉路",
+          "松山路",
+          "基隆路1段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 71,
+        "question": "臺北市文山區公所位於",
+        "options": [
+          "木柵路3段",
+          "試院路",
+          "興隆路2段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 72,
+        "question": "臺北市通化街最靠近下列那一路口",
+        "options": [
+          "延吉街",
+          "永吉路",
+          "臨江街"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 73,
+        "question": "臺北市立萬芳醫院位於",
+        "options": [
+          "萬芳路1段",
+          "興隆路3段",
+          "辛亥路4段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 74,
+        "question": "以最短路徑從臺北車站搭計程車至君悅飯店無須行經下列何路段",
+        "options": [
+          "松壽路",
+          "市府路",
+          "松信路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 75,
+        "question": "以最短路徑從臺北市政府搭計程車至松山機場無須行經下列何路段",
+        "options": [
+          "仁愛路",
+          "復興北路",
+          "光復北路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 76,
+        "question": "以最短路徑從松山機場搭計程車至圓山大飯店無須行經下列何路段",
+        "options": [
+          "民權東路",
+          "承德路",
+          "民族東路"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 77,
+        "question": "以最短路徑從松山機場搭計程車至喜來登大飯店無須行經下列何路段",
+        "options": [
+          "徐州路",
+          "敦化北路",
+          "市民大道"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 78,
+        "question": "以最短路徑從松山機場搭計程車至台北凱撒大飯店無須行經下列何路段",
+        "options": [
+          "徐州路",
+          "敦化北路",
+          "忠孝東路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 79,
+        "question": "以最短路徑從松山機場搭計程車至晶華酒店無須行經下列何路段",
+        "options": [
+          "中山北路",
+          "林森北路",
+          "民族東路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 80,
+        "question": "臺北美侖大飯店位於",
+        "options": [
+          "復興南路1段",
+          "復興南路2段",
+          "復興南路3段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 81,
+        "question": "臺北市懷愛館位於",
+        "options": [
+          "辛亥路3段",
+          "民權東路2段",
+          "興隆路3段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 82,
+        "question": "臺北松山奉天宮位於信義區",
+        "options": [
+          "八德路",
+          "福德街",
+          "虎林街"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 83,
+        "question": "國軍退除役官兵輔導委員會位於臺北市",
+        "options": [
+          "忠孝東路5段",
+          "松仁路",
+          "松信路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 84,
+        "question": "臺北松山慈祐宮位於松山區",
+        "options": [
+          "八德路4段",
+          "福德街",
+          "松山路"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 85,
+        "question": "臺北市客家事務委員會位於",
+        "options": [
+          "復興南路1段",
+          "信義路3段",
+          "仁愛路2段"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 86,
+        "question": "臺北轉運站位於",
+        "options": [
+          "市民大道1段",
+          "承德路2段",
+          "忠孝東路5段"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 87,
+        "question": "臺北高等行政法院位於",
+        "options": [
+          "和平東路",
+          "文林路",
+          "福國路"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 88,
+        "question": "臺北市南門市場位於",
+        "options": [
+          "杭州南路2段",
+          "羅斯福路1段",
+          "南昌路1段"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }

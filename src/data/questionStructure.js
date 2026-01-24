@@ -2,6 +2,10 @@
 export const questionStructure = {
   地理: {
     選擇題: {
+      臺北市: [
+        { start: 1, end: 50, label: "1-50題" },
+        { start: 51, end: 88, label: "51-88題" }
+      ],
       台中: [
         { start: 1, end: 50, label: "1-50題" },
         { start: 51, end: 100, label: "51-100題" },
@@ -18,6 +22,10 @@ export const questionStructure = {
       ]
     },
     是非題: {
+      臺北市: [
+        { start: 1, end: 50, label: "1-50題" },
+        { start: 51, end: 90, label: "51-90題" }
+      ],
       台中: [
         { start: 1, end: 50, label: "1-50題" },
         { start: 51, end: 100, label: "51-100題" },
@@ -86,6 +94,7 @@ export function getQuestionBankPath(category, type, region = "") {
   }
   
   const regionMap = {
+    臺北市: "Taipei",
     台中: "Taichung",
     彰化: "Changhua",
     南投: "Nantou"
