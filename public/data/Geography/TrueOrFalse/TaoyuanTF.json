@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "question": "臺灣桃園地方法院位於桃園區法治路上",
+    "correct_answer": false
+  },
+  {
+    "id": 2,
+    "question": "桃園市政府交通事件裁決處桃園區工作站【桃園監理站】位於桃園區介新街。",
+    "correct_answer": false
+  },
+  {
+    "id": 3,
+    "question": "桃園市政府警察局桃園分局位於桃園區永安路上",
+    "correct_answer": false
+  },
+  {
+    "id": 4,
+    "question": "桃園景福宮,俗稱桃園大廟位於桃園區博愛路上",
+    "correct_answer": false
+  },
+  {
+    "id": 5,
+    "question": "桃園市政府法務局桃園區調解委員會位於縣府路口。",
+    "correct_answer": true
+  },
+  {
+    "id": 6,
+    "question": "桃園市桃園區建國路與復興路交會。",
+    "correct_answer": false
+  },
+  {
+    "id": 7,
+    "question": "桃園市桃園區復興路與秀山路交會。",
+    "correct_answer": true
+  },
+  {
+    "id": 8,
+    "question": "桃園市桃園區國際路二段與中山路交會。",
+    "correct_answer": true
+  },
+  {
+    "id": 9,
+    "question": "桃園市桃園區莊敬路二段與寶慶路交會。",
+    "correct_answer": true
+  },
+  {
+    "id": 10,
+    "question": "桃園市桃園區大興西路一段與大有路交會。",
+    "correct_answer": false
+  },
+  {
+    "id": 11,
+    "question": "交通部公路總局新竹區監理所【中壢監理站】位於中壢區延平路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 12,
+    "question": "桃園市中壢區戶政事務所【本所】位於溪洲街",
+    "correct_answer": true
+  },
+  {
+    "id": 13,
+    "question": "桃園市中壢區中壢仁海宮位於元化路上",
+    "correct_answer": false
+  },
+  {
+    "id": 14,
+    "question": "桃園市中壢區威尼斯影城位於九和一街上",
+    "correct_answer": true
+  },
+  {
+    "id": 15,
+    "question": "桃園市政府警察局中壢分局位於延平路上",
+    "correct_answer": true
+  },
+  {
+    "id": 16,
+    "question": "桃園市中壢區中山東路一段與龍岡路三段交會",
+    "correct_answer": false
+  },
+  {
+    "id": 17,
+    "question": "桃園市中壢區高鐵南路三段與中豐北路二段交會",
+    "correct_answer": true
+  },
+  {
+    "id": 18,
+    "question": "桃園市中壢區龍岡清真寺位於龍平路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 19,
+    "question": "桃園市中壢區 Xpark 八景島水族館位於春德路上",
+    "correct_answer": true
+  },
+  {
+    "id": 20,
+    "question": "桃園市中壢區自強一路與文化路交會。",
+    "correct_answer": false
+  },
+  {
+    "id": 21,
+    "question": "桃園市政府警察局平鎮分局位於平鎮區大連街上",
+    "correct_answer": false
+  },
+  {
+    "id": 22,
+    "question": "平鎮褒忠祠(義民廟)位於平鎮區復旦路二段上",
+    "correct_answer": true
+  },
+  {
+    "id": 23,
+    "question": "國立臺北商業大學平鎮校區位於桃園市平鎮區金陵路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 24,
+    "question": "桃園市平鎮區公所位於振興路段上",
+    "correct_answer": true
+  },
+  {
+    "id": 25,
+    "question": "桃園市平鎮區忠貞新村文化園區位於中正路上",
+    "correct_answer": false
+  },
+  {
+    "id": 26,
+    "question": "桃園市平鎮區東豐路與南豐路交會",
+    "correct_answer": false
+  },
+  {
+    "id": 27,
+    "question": "桃園市平鎮區戶政事務所位於振興路上",
+    "correct_answer": false
+  },
+  {
+    "id": 28,
+    "question": "國防部北部地方軍事法院位於桃園市八德區興豐路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 29,
+    "question": "桃園市平鎮區龍南路與平東路交會",
+    "correct_answer": true
+  },
+  {
+    "id": 30,
+    "question": "桃園市八德區大湳公有零售市場位於信義街、四維路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 31,
+    "question": "桃園市八德區八德三元宮位於中正路段上",
+    "correct_answer": false
+  },
+  {
+    "id": 32,
+    "question": "桃園市兒童美術館位於八德區大興路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 33,
+    "question": "桃園市政府八德區戶政事務所位於八德區興豐路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 34,
+    "question": "桃園市八德區龍南路與霄裡路交會",
+    "correct_answer": true
+  },
+  {
+    "id": 35,
+    "question": "桃園市八德區豐田路與建德路交會。",
+    "correct_answer": false
+  },
+  {
+    "id": 36,
+    "question": "桃園市政府警察局八德分局位於八德區興豐路上",
+    "correct_answer": true
+  },
+  {
+    "id": 37,
+    "question": "桃園市政府警察局楊梅分局位於楊梅區中山路上",
+    "correct_answer": true
+  },
+  {
+    "id": 38,
+    "question": "桃園市楊梅區富岡老街位於中山路上",
+    "correct_answer": false
+  },
+  {
+    "id": 39,
+    "question": "桃園市楊梅區戶政事務所位於老莊路。",
+    "correct_answer": false
+  },
+  {
+    "id": 40,
+    "question": "桃園市私立脊髓損傷潛能發展中心位於楊梅區快速路五段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 41,
+    "question": "桃園市楊梅區幼獅路與青年路交會。",
+    "correct_answer": false
+  },
+  {
+    "id": 42,
+    "question": "埔心牧場位於桃園市楊梅區幼獅路一段上",
+    "correct_answer": true
+  },
+  {
+    "id": 43,
+    "question": "好市多COSTCO桃園南崁店位於桃園市蘆竹區中正北路。",
+    "correct_answer": false
+  },
+  {
+    "id": 44,
+    "question": "長流當代美術館(桃園館)位於桃園市蘆竹區中正路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 45,
+    "question": "桃園市蘆竹區卡司蒂菈樂園(金格觀光工廠)位於大竹路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 46,
+    "question": "義美食品觀光工廠位於桃園市蘆竹區南工路一段",
+    "correct_answer": true
+  },
+  {
+    "id": 47,
+    "question": "桃園市蘆竹區海湖北路與海山中街交會。",
+    "correct_answer": true
+  },
+  {
+    "id": 48,
+    "question": "桃園市政府警察局蘆竹分局位於蘆竹區南崁路上",
+    "correct_answer": true
+  },
+  {
+    "id": 49,
+    "question": "桃園市龜山區壽山巖觀音寺位於萬壽路二段上",
+    "correct_answer": true
+  },
+  {
+    "id": 50,
+    "question": "桃園市政府警察局龜山分局位於龜山區自強南路路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 51,
+    "question": "桃園市龜山區南僑桃園觀光體驗工廠位於興邦路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 52,
+    "question": "台灣菸酒股份有限公司桃園酒廠位於龜山區文化一路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 53,
+    "question": "國立體育大學位於桃園市龜山區振興路上",
+    "correct_answer": false
+  },
+  {
+    "id": 54,
+    "question": "桃園市龜山區文化一路與文化二路交會",
+    "correct_answer": false
+  },
+  {
+    "id": 55,
+    "question": "桃園市桃園區虎頭山環保公園位於三民路上",
+    "correct_answer": false
+  },
+  {
+    "id": 56,
+    "question": "桃園市桃園區統領廣場位於中山路上",
+    "correct_answer": false
+  },
+  {
+    "id": 57,
+    "question": "桃園市立圖書館龍潭分館暨鄧雨賢台灣音樂紀念館位於中興路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 58,
+    "question": "桃園市三坑自然生態公園位於龍潭區",
+    "correct_answer": true
+  },
+  {
+    "id": 59,
+    "question": "桃園市龍潭區龍潭觀光大池位於東龍路段上",
+    "correct_answer": false
+  },
+  {
+    "id": 60,
+    "question": "桃園市政府警察局龍潭分局位於龍潭區干城路上",
+    "correct_answer": true
+  },
+  {
+    "id": 61,
+    "question": "桃園市龍潭區中正路與神龍路交會",
+    "correct_answer": false
+  },
+  {
+    "id": 62,
+    "question": "桃園市大溪區蓮座山觀音寺位於瑞安路二段上",
+    "correct_answer": true
+  },
+  {
+    "id": 63,
+    "question": "桃園市政府警察局大溪分局位於大溪區信義路上",
+    "correct_answer": false
+  },
+  {
+    "id": 64,
+    "question": "桃園市大溪區石門水庫位於環湖路一段上",
+    "correct_answer": true
+  },
+  {
+    "id": 65,
+    "question": "桃園市大溪區大鶯路與員林路一段交會",
+    "correct_answer": false
+  },
+  {
+    "id": 66,
+    "question": "桃園市桃園區戶政事務所位於龍安街上",
+    "correct_answer": false
+  },
+  {
+    "id": 67,
+    "question": "臺灣桃園國際機場位於大園區航站南路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 68,
+    "question": "桃園市政府警察局大園分局位於大園區中正路。",
+    "correct_answer": false
+  },
+  {
+    "id": 69,
+    "question": "桃園市大園區竹圍漁港位於海港路。",
+    "correct_answer": false
+  },
+  {
+    "id": 70,
+    "question": "桃園市大園區國際路二段與竹圍路交會",
+    "correct_answer": true
+  },
+  {
+    "id": 71,
+    "question": "桃園市觀音區草漯沙丘觀音展示館位於中山路上",
+    "correct_answer": false
+  },
+  {
+    "id": 72,
+    "question": "桃園市觀音區白沙岬燈塔位於新坡下路段上",
+    "correct_answer": true
+  },
+  {
+    "id": 73,
+    "question": "桃園市觀音區觀音區公所位於觀新路上",
+    "correct_answer": true
+  },
+  {
+    "id": 74,
+    "question": "桃園市觀音區中山路與甘泉街交會",
+    "correct_answer": true
+  },
+  {
+    "id": 75,
+    "question": "桃園市桃園區公所位於桃園區中山路",
+    "correct_answer": false
+  },
+  {
+    "id": 76,
+    "question": "桃園市新屋區新屋綠色走廊位於濱海林蔭大道。",
+    "correct_answer": true
+  },
+  {
+    "id": 77,
+    "question": "桃園市新屋區中正路與忠孝街交會",
+    "correct_answer": false
+  },
+  {
+    "id": 78,
+    "question": "角板山行館風景區(蔣公行館)位於桃園市復興區中正路段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 79,
+    "question": "桃園市復興區衛生所位於復興區中山路上。",
+    "correct_answer": false
+  },
+  {
+    "id": 80,
+    "question": "桃園市立圖書館總館位於桃園區南平路上",
+    "correct_answer": true
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "question": "「思源啞口為宜蘭縣與臺中市之交界點",
+    "correct_answer": true
+  },
+  {
+    "id": 2,
+    "question": "甲子蘭酒文物館原名為宜蘭製酒公司位於舊城東路。",
+    "correct_answer": false
+  },
+  {
+    "id": 3,
+    "question": "宜蘭市立(李科永紀念)圖書館位於宜蘭市陽明路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 4,
+    "question": "「宜蘭著名打鐵街位於宜蘭市武營街",
+    "correct_answer": true
+  },
+  {
+    "id": 5,
+    "question": "「宜蘭運動公園位於宜蘭市區緊臨臺2號省道",
+    "correct_answer": false
+  },
+  {
+    "id": 6,
+    "question": "「宜蘭市復興路上的文化局裡有臺灣戲劇館。",
+    "correct_answer": true
+  },
+  {
+    "id": 7,
+    "question": "「宜蘭演藝廳位於宜蘭市復興路",
+    "correct_answer": false
+  },
+  {
+    "id": 8,
+    "question": "「宜蘭縣知名的「幾米公園」位於宜蘭市新興路上",
+    "correct_answer": false
+  },
+  {
+    "id": 9,
+    "question": "「國立宜蘭大學位於神農路上",
+    "correct_answer": true
+  },
+  {
+    "id": 10,
+    "question": "宜蘭監獄舊址(宜蘭新月廣場)位於舊城南路上",
+    "correct_answer": true
+  },
+  {
+    "id": 11,
+    "question": "臺2省道又稱為濱海公路",
+    "correct_answer": true
+  },
+  {
+    "id": 12,
+    "question": "「省道「石城服務區」位於宜蘭縣於臺中市的縣界上。",
+    "correct_answer": false
+  },
+  {
+    "id": 13,
+    "question": "宜蘭轉運站位於宜蘭市陽明路",
+    "correct_answer": false
+  },
+  {
+    "id": 14,
+    "question": "宜蘭縣政府旁有臺灣戲劇館",
+    "correct_answer": false
+  },
+  {
+    "id": 15,
+    "question": "葫蘆堵大橋為連接員山鄉與三星鄉的橋樑",
+    "correct_answer": true
+  },
+  {
+    "id": 16,
+    "question": "宜蘭火車站位於宜興路上",
+    "correct_answer": true
+  },
+  {
+    "id": 17,
+    "question": "宜蘭縣政府警察局位於宜蘭市中山路上。",
+    "correct_answer": true
+  },
+  {
+    "id": 18,
+    "question": "國立蘭陽女子高中位於宜興路上",
+    "correct_answer": false
+  },
+  {
+    "id": 19,
+    "question": "國立宜蘭高中位於復興路上",
+    "correct_answer": true
+  },
+  {
+    "id": 20,
+    "question": "宜蘭地方法院檢察署位於宜蘭市公所前",
+    "correct_answer": false
+  },
+  {
+    "id": 21,
+    "question": "南屏國小位於宜蘭市復興路",
+    "correct_answer": false
+  },
+  {
+    "id": 22,
+    "question": "宜蘭河濱公園位於蘭陽大橋橋下。",
+    "correct_answer": false
+  },
+  {
+    "id": 23,
+    "question": "宜蘭橋下有座宜蘭河濱公園",
+    "correct_answer": true
+  },
+  {
+    "id": 24,
+    "question": "宜蘭旅遊服務中心位於女中路上",
+    "correct_answer": false
+  },
+  {
+    "id": 25,
+    "question": "黎霧橋位於宜蘭市環市道路上",
+    "correct_answer": true
+  },
+  {
+    "id": 26,
+    "question": "北關海潮公園位於臺7省道上",
+    "correct_answer": false
+  },
+  {
+    "id": 27,
+    "question": "大溪漁港港口位於壯圍鄉",
+    "correct_answer": false
+  },
+  {
+    "id": 28,
+    "question": "蘭陽博物館地點不在頭城鎮",
+    "correct_answer": false
+  },
+  {
+    "id": 29,
+    "question": "福山植物園(福山研究中心管制站)入口位於員山鄉。",
+    "correct_answer": true
+  },
+  {
+    "id": 30,
+    "question": "無尾港位於蘭陽平原的東北方",
+    "correct_answer": false
+  },
+  {
+    "id": 31,
+    "question": "臺9省道未經過壯圍鄉",
+    "correct_answer": true
+  },
+  {
+    "id": 32,
+    "question": "蘭陽平原最北端的小鎮為頭城鎮",
+    "correct_answer": true
+  },
+  {
+    "id": 33,
+    "question": "五峰旗瀑布位於礁溪鄉",
+    "correct_answer": true
+  },
+  {
+    "id": 34,
+    "question": "跑馬古道為礁溪鄉內的古道",
+    "correct_answer": true
+  },
+  {
+    "id": 35,
+    "question": "開墾宜蘭先賢「吳沙」故居位於羅東鎮",
+    "correct_answer": false
+  },
+  {
+    "id": 36,
+    "question": "縣道191甲起點位於頭城鎮",
+    "correct_answer": true
+  },
+  {
+    "id": 37,
+    "question": "「宜蘭縣玉鼎慈天宮(玉田弄獅)位於礁溪鄉玉龍路一段上。",
+    "correct_answer": true
+  },
+  {
+    "id": 38,
+    "question": "礁溪鄉的杏和醫院位於中山路上",
+    "correct_answer": false
+  },
+  {
+    "id": 39,
+    "question": "礁溪轉運站位於礁溪鄉中山路上",
+    "correct_answer": false
+  },
+  {
+    "id": 40,
+    "question": "五峰旗瀑布非礁溪鄉的觀光景點",
+    "correct_answer": false
+  },
+  {
+    "id": 41,
+    "question": "湯圍溝公園位於礁溪鄉仁愛路與德陽路之間",
+    "correct_answer": true
+  },
+  {
+    "id": 42,
+    "question": "停車場公共浴池位於礁溪鄉礁溪路",
+    "correct_answer": true
+  },
+  {
+    "id": 43,
+    "question": "玉石澡堂位於宜蘭縣礁溪鄉礁溪公園旁",
+    "correct_answer": true
+  },
+  {
+    "id": 44,
+    "question": "壯圍鄉為無臨海鄉鎮市",
+    "correct_answer": false
+  },
+  {
+    "id": 45,
+    "question": "金面橋非為臺9省道位於礁溪鄉內的橋樑",
+    "correct_answer": true
+  },
+  {
+    "id": 46,
+    "question": "宜蘭縣得子口橋不在縣道191甲線的橋樑",
+    "correct_answer": true
+  },
+  {
+    "id": 47,
+    "question": "五峰旗瀑布非位於為礁溪鄉內的瀑布",
+    "correct_answer": false
+  },
+  {
+    "id": 48,
+    "question": "二城國小非為頭城鎮內的國民小學。",
+    "correct_answer": false
+  },
+  {
+    "id": 49,
+    "question": "壯圍國民中學位於壯圍大橋下",
+    "correct_answer": false
+  },
+  {
+    "id": 50,
+    "question": "壯圍大橋位於臺7省道上",
+    "correct_answer": true
+  },
+  {
+    "id": 51,
+    "question": "噶瑪蘭橋為臺2省道上的橋",
+    "correct_answer": true
+  },
+  {
+    "id": 52,
+    "question": "中廣電臺宜蘭臺位於壯圍鄉",
+    "correct_answer": true
+  },
+  {
+    "id": 53,
+    "question": "興中國民中學不在壯圍鄉內",
+    "correct_answer": true
+  },
+  {
+    "id": 54,
+    "question": "聖母醫院非羅東鎮內的醫院",
+    "correct_answer": false
+  },
+  {
+    "id": 55,
+    "question": "宜蘭縣羅東夜市位於羅東運動公園旁",
+    "correct_answer": false
+  },
+  {
+    "id": 56,
+    "question": "古亭國民小學非位於羅東鎮內",
+    "correct_answer": true
+  },
+  {
+    "id": 57,
+    "question": "羅東警察分局位於公正路上",
+    "correct_answer": true
+  },
+  {
+    "id": 58,
+    "question": "冬山河親水公園位於五結鄉內",
+    "correct_answer": true
+  },
+  {
+    "id": 59,
+    "question": "國立傳統藝術中心位於冬山鄉內",
+    "correct_answer": false
+  },
+  {
+    "id": 60,
+    "question": "宜蘭著名觀光景點珍珠社區位於冬山鄉內。",
+    "correct_answer": true
+  },
+  {
+    "id": 61,
+    "question": "「國立傳統藝術中心由臺2線經噶瑪蘭橋與下加禮遠橋。",
+    "correct_answer": true
+  },
+  {
+    "id": 62,
+    "question": "舊寮瀑布非為宜蘭縣冬山鄉內的瀑布",
+    "correct_answer": false
+  },
+  {
+    "id": 63,
+    "question": "寒溪橋非冬山鄉內的橋樑。",
+    "correct_answer": true
+  },
+  {
+    "id": 64,
+    "question": "加禮遠橋非為五結鄉內的橋樑",
+    "correct_answer": false
+  },
+  {
+    "id": 65,
+    "question": "寒溪橋為冬山鄉內的橋樑",
+    "correct_answer": false
+  },
+  {
+    "id": 66,
+    "question": "五結鄉內有兩座臺鐵車站為二結站、中里站。",
+    "correct_answer": true
+  },
+  {
+    "id": 67,
+    "question": "泰雅大橋為連接大同鄉與三星鄉的橋樑。",
+    "correct_answer": true
+  },
+  {
+    "id": 68,
+    "question": "牛鬥大橋為連接宜蘭縣大同鄉與三星鄉的橋樑。",
+    "correct_answer": true
+  },
+  {
+    "id": 69,
+    "question": "棲蘭森林遊樂區位於玉蘭村。",
+    "correct_answer": false
+  },
+  {
+    "id": 70,
+    "question": "長埤湖風景區位於臺7丙省道上",
+    "correct_answer": true
+  },
+  {
+    "id": 71,
+    "question": "員山鄉員山公園位於湖北村",
+    "correct_answer": false
+  },
+  {
+    "id": 72,
+    "question": "明池森林遊樂區位於宜蘭縣大同鄉內",
+    "correct_answer": true
+  },
+  {
+    "id": 73,
+    "question": "宜蘭縣蘇澳鎮觀光冷泉公園位於冷泉路上",
+    "correct_answer": true
+  },
+  {
+    "id": 74,
+    "question": "武荖坑風景區位於冬山鄉與蘇澳鎮交界處",
+    "correct_answer": true
+  },
+  {
+    "id": 75,
+    "question": "明池森林遊樂區位於英士村內",
+    "correct_answer": true
+  },
+  {
+    "id": 76,
+    "question": "泰雅大橋為三星鄉往大同鄉所經過的橋樑",
+    "correct_answer": true
+  },
+  {
+    "id": 77,
+    "question": "澳花瀑布位於南澳鄉澳花村西北向",
+    "correct_answer": true
+  },
+  {
+    "id": 78,
+    "question": "無尾港水鳥保護區位於冷泉路",
+    "correct_answer": false
+  },
+  {
+    "id": 79,
+    "question": "利澤簡橋非蘇澳鎮臺9省道上的橋樑。",
+    "correct_answer": true
+  },
+  {
+    "id": 80,
+    "question": "鐵路蘇澳新站位於臺9省道上新城南路上",
+    "correct_answer": false
+  }
+]
