@@ -1,3 +1,1991 @@
-{
-  "questions": []
-}
+[
+  {
+    "id": 1,
+    "question": "臺東縣臺11線最北之鄉為長濱鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 2,
+    "question": "臺東縣南橫公路在臺9線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 3,
+    "question": "臺東縣有11個鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 4,
+    "question": "臺東縣有1個市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 5,
+    "question": "臺東縣有3個鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 6,
+    "question": "遊客欲從機場搭計程車前往臺東縣政府,自民航路出發後,路線規劃山西路、正氣北路、正氣路、中山路較為適宜",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 7,
+    "question": "蓮霧為臺東縣最主要的名產之一",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 8,
+    "question": "太平榮家位在卑南鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 9,
+    "question": "杉原海水浴場位在東河鄉",
+    "options": {
+      "1": "自由",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 10,
+    "question": "馬偕醫院臺東分院係位在長沙街",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 11,
+    "question": "臺東史前博物館位在博物館路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 12,
+    "question": "臺20線道路是南迴公路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 13,
+    "question": "臺東基督教醫院位於浙江街",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 14,
+    "question": "臺東縣文化局位於南京路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 15,
+    "question": "知本老爺大飯店位於卑南鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 16,
+    "question": "娜路彎大酒店位於中興路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 17,
+    "question": "臺東縣妨害交通車輛拖吊保管場位於新站路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 18,
+    "question": "原生應用植物園區位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 19,
+    "question": "鷺鷥湖位於關山鎮。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 20,
+    "question": "臺東地檢署位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 21,
+    "question": "財政部臺灣省南區國稅局臺東縣分局位於中興路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 22,
+    "question": "榮民醫院臺東分院位於勝利街。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 23,
+    "question": "國立臺東商校位於正氣北路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 24,
+    "question": "臺東地方法院位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 25,
+    "question": "臺東稅捐稽徵處位於中興路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 26,
+    "question": "臺東地政事務所位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 27,
+    "question": "臺東動物防疫所位於中興路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 28,
+    "question": "臺東原住民會館位於光明路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 29,
+    "question": "臺東公教會館位於南京路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 30,
+    "question": "臺東監獄位於廣東路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 31,
+    "question": "經濟部水利署第八河川局位於中興路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 32,
+    "question": "臺東縣議會位於更生路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 33,
+    "question": "臺東縣消防局位於四維路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 34,
+    "question": "臺東憲兵隊位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 35,
+    "question": "臺東至富里(東富公路)省道路線編號臺23線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 36,
+    "question": "從臺東市至花蓮縣界(臺11線)須途經之鄉、鎮、市(請依序排)為臺東市、卑南鄉、東河鄉、成功鎮、長濱鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 37,
+    "question": "從臺東市至花蓮縣界(臺9縣)須途經之鄉、鎮、市(請依序排列)臺東市、卑南鄉、鹿野鄉、關山鎮、海端鄉、池上鄉。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 38,
+    "question": "臺東海山寺位於臨海路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 39,
+    "question": "臺東天后宮位於中山路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 40,
+    "question": "臺東縣立仁愛國小位於四維路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 41,
+    "question": "臺東縣立復興國小位於南昌街",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 42,
+    "question": "臺東氣象站位於大同路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 43,
+    "question": "國立空中大學台東中心位於正氣北路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 44,
+    "question": "國立臺東大學附設實驗國民小學位於新生路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 45,
+    "question": "臺東縣教育局位於中興路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 46,
+    "question": "臺東縣立寶桑國民中學位於四維路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 47,
+    "question": "國立臺東大學附屬體育高級中學位於中興路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 48,
+    "question": "臺灣省臺東縣私立公東高級工業職業學校位於中華路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 49,
+    "question": "國立臺東高級農工職業學校位於連航路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 50,
+    "question": "國立臺東女子高級中學位於中山路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 51,
+    "question": "國立臺東高級中學位於中華路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 52,
+    "question": "臺東縣立東海國民中學位於南昌路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 53,
+    "question": "臺東縣立新生國民中學位於新生路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 54,
+    "question": "臺東縣臺東市寶桑國民小學位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 55,
+    "question": "林務局臺東林區管理處位於鐵花路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 56,
+    "question": "臺東區農業改良場位於中華路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 57,
+    "question": "臺東縣自來水臺東服務所位於臨海路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 58,
+    "question": "臺東縣立游泳池位於臨海路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 59,
+    "question": "臺東市立游泳池位於南京路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 60,
+    "question": "臺東縣立綜合體育館位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 61,
+    "question": "臺東縣立軟式網球場位於桂林北路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 62,
+    "question": "臺灣省臺東農田水利會位於中山路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 63,
+    "question": "彰化商業銀行臺東分行位於中華路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 64,
+    "question": "臺灣土地銀行臺東分行位於中山路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 65,
+    "question": "臺灣銀行臺東分行位於正氣路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 66,
+    "question": "知本富野渡假村位於臺東市。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 67,
+    "question": "東遊季溫泉渡假村位於卑南鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 68,
+    "question": "臺東初鹿牧場位於臺東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 69,
+    "question": "臺東縣環境保護局位於更生路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 70,
+    "question": "臺東市公所位於中山路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 71,
+    "question": "國立臺東海洋生物展覽館位於長濱鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 72,
+    "question": "馬蘭榮家位於更生路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 73,
+    "question": "小野柳風景區位於東河鄉。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 74,
+    "question": "本轄朝日海水溫泉位於綠島鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 75,
+    "question": "蘭嶼鄉原住民係屬達悟族",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 76,
+    "question": "臺東縣立富岡國民小學位於卑南鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 77,
+    "question": "臺東縣立東海國民小學位於長沙街。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 78,
+    "question": "臺東縣立馬蘭國民小學位於新生路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 79,
+    "question": "臺東縣立新生國民小學位於新生路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 80,
+    "question": "臺東縣立富山國民小學位於東河鄉。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 81,
+    "question": "中華郵政臺東郵局於四維路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 82,
+    "question": "臺東果菜市場位於博愛路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 83,
+    "question": "臺東縣肉品市場位於中華路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 84,
+    "question": "臺東就業服務站位於中興路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 85,
+    "question": "臺灣岩灣技能訓練所位於興安路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 86,
+    "question": "臺灣東成技能訓練所位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 87,
+    "question": "臺灣武陵監獄位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 88,
+    "question": "臺東縣民服務中心位於中山路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 89,
+    "question": "臺東市清潔隊位於大同路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 90,
+    "question": "臺東縣火葬場位於民航路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 91,
+    "question": "臺東縣警察局位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 92,
+    "question": "臺東縣政府位於中山路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 93,
+    "question": "前往關山親水公園須行駛臺11線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 94,
+    "question": "台東文化公園位於台東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 95,
+    "question": "中國青年救國團直屬臺灣省臺東縣團務指導委員會位於博愛路。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 96,
+    "question": "南橫公路位於臺東縣海端鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 97,
+    "question": "南橫公路(埡口段)係屬於太魯閣國家公園",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 98,
+    "question": "臺東縣大坡池風景區位於池上鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 99,
+    "question": "臺東縣高台茶園位於延平鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 100,
+    "question": "寶華山位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 101,
+    "question": "紅葉溫泉位於延平鄉。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 102,
+    "question": "臺東糖廠牧野中心位於關山鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 103,
+    "question": "三仙台風景區位於長濱鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 104,
+    "question": "臺東縣最北端的鄉(海線)是池上鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 105,
+    "question": "交通部觀光局東部海岸特定風景管理處位於成功鎮。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 106,
+    "question": "水上流風景區位於東河鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 107,
+    "question": "月光小棧位於東河鄉。",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 108,
+    "question": "八仙洞位於長濱鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 109,
+    "question": "從臺東市前往牧野中心須途經鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 110,
+    "question": "從臺東市前往初鹿牧場風景區須途經東河鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 111,
+    "question": "從臺東市前往三仙台風景區須途經池上鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 112,
+    "question": "富岡漁港至綠島搭船時間約50分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 113,
+    "question": "綠島至蘭嶼搭船時間約90分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 114,
+    "question": "富岡漁港至蘭嶼搭船時間約2小時至2.5小時",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 115,
+    "question": "臺東至蘭嶼搭機時間約20分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 116,
+    "question": "臺東至綠島搭機時間約15分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 117,
+    "question": "臺東至臺北搭機時間約50分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 118,
+    "question": "臺東至臺中搭機時間約60分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 119,
+    "question": "臺東至高雄搭機時間約40分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 120,
+    "question": "臺東至高雄南迴鐵路搭火車時間（自強號）約2.5小時至3小時",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 121,
+    "question": "臺東火車站位於新站路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 122,
+    "question": "馬蘭火車站位於更生路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 123,
+    "question": "康樂火車站位於博物館路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 124,
+    "question": "知本火車站位於知本路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 125,
+    "question": "鹿野火車站位於中正路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 126,
+    "question": "關山火車站位於博愛路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 127,
+    "question": "池上火車站位於鐵花路",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 128,
+    "question": "海端火車站位於臺9線旁",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 129,
+    "question": "太麻里火車站位於臺9線旁",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 130,
+    "question": "大武火車站位於臺9線旁",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 131,
+    "question": "瀧溪火車站位於大武鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 132,
+    "question": "金崙火車站位於太麻里鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 133,
+    "question": "瑞源火車站位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 134,
+    "question": "瑞和火車站位於鹿野鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 135,
+    "question": "山里火車站位於卑南鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 136,
+    "question": "臺東縣目前計程車起跳運價為100元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 137,
+    "question": "臺東縣計程車起跳運價（100元）之基本里程為1.5公里",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 138,
+    "question": "臺東縣計程車續跳里程（5元）為每230公尺",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 139,
+    "question": "臺東縣計程車延滯計時（5元）為車速5公里以下每2分鐘",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 140,
+    "question": "臺東縣計程車夜間加成（23時至次日6時止）依跳表再加收20元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 141,
+    "question": "臺東縣計程車春節加成運價收費期間自除夕前2天至連假結束為止",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 142,
+    "question": "臺東縣計程車春節加成運價為依跳表金額再加收50元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 143,
+    "question": "屏東市至東港鎮可行駛臺27線轉接臺17線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 144,
+    "question": "屏東市至里港鄉可行駛臺3線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 145,
+    "question": "屏東市至內埔鄉可行駛臺1線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 146,
+    "question": "屏東市至高樹鄉可行駛臺27線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 147,
+    "question": "屏東市至萬丹鄉可行駛臺27線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 148,
+    "question": "屏東市至三地門鄉可行駛臺24線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 149,
+    "question": "萬巒鄉海鴻飯店的豬腳非常有名",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 150,
+    "question": "雙流森林遊樂區位於獅子鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 151,
+    "question": "大鵬灣國家風景區位於東港鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 152,
+    "question": "墾丁國家公園管理處位於恆春鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 153,
+    "question": "國立海洋生物博物館位於車城鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 154,
+    "question": "前往四重溪溫泉須途經車城鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 155,
+    "question": "屏東監獄位於竹田鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 156,
+    "question": "屏東看守所位於竹田鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 157,
+    "question": "屏東地檢署位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 158,
+    "question": "屏東地方法院位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 159,
+    "question": "屏東醫院（部立）位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 160,
+    "question": "屏東基督教醫院位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 161,
+    "question": "屏東縣政府位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 162,
+    "question": "屏東縣議會位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 163,
+    "question": "屏東市公所位於屏東市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 164,
+    "question": "花蓮縣政府位於花蓮市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 165,
+    "question": "花蓮地方法院位於花蓮市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 166,
+    "question": "花蓮醫院（部立）位於花蓮市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 167,
+    "question": "花蓮慈濟醫院位於花蓮市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 168,
+    "question": "太魯閣國家公園管理處位於秀林鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 169,
+    "question": "東部海岸國家風景區花蓮站位於花蓮市",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 170,
+    "question": "花東縱谷國家風景區管理處位於瑞穗鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 171,
+    "question": "鯉魚潭位於壽豐鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 172,
+    "question": "海洋公園位於壽豐鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 173,
+    "question": "兆豐農場位於鳳林鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 174,
+    "question": "瑞穗牧場位於瑞穗鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 175,
+    "question": "紅葉溫泉位於萬榮鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 176,
+    "question": "安通溫泉位於玉里鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 177,
+    "question": "由富里走臺23線可抵成功鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 178,
+    "question": "由玉里走臺30線（玉長公路）可抵寧埔接臺11線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 179,
+    "question": "由光復走臺11甲線（光豐公路）可抵豐濱",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 180,
+    "question": "由瑞穗走花64線（瑞港公路）可抵大港口接臺11線",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 181,
+    "question": "由臺東行駛臺9線經太麻里、大武、達仁可接臺26線往旭海",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 182,
+    "question": "臺1線過高屏大橋經屏東市、萬丹、竹田鄉可抵潮州鎮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 183,
+    "question": "由水底寮走臺1線南下可達楓港接臺26線往臺東",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 184,
+    "question": "由屏東縣水底寮走臺17線南下可達楓港接臺9線往臺東、花蓮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 185,
+    "question": "由臺27線經里嶺大橋往東行駛經里港、新南勢可抵高樹鄉與臺22線相接",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 186,
+    "question": "屏東警察分局民生派出所現址在民生路、仁愛路口",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 187,
+    "question": "前往北大武山，可從萬巒鄉轉泰武鄉，由泰武鄉的佳平村入山",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 188,
+    "question": "太魯閣國家公園內以百合花聞名的景點為新白楊",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 189,
+    "question": "花蓮縣境內最大內陸湖為七星潭",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 190,
+    "question": "掃叭石柱位於舞鶴台地",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 191,
+    "question": "月洞風景區位於壽豐鄉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 192,
+    "question": "長春祠位於太魯閣國家公園內",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 193,
+    "question": "燕子口位於太魯閣國家公園內",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 194,
+    "question": "九曲洞位於太魯閣國家公園內",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 195,
+    "question": "天祥位於太魯閣國家公園內",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 196,
+    "question": "大禹嶺位於太魯閣國家公園內",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 197,
+    "question": "花蓮縣富里鄉特產為富里米及金針花",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 198,
+    "question": "花蓮縣玉里鎮特產為玉里米及金針花",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 199,
+    "question": "花蓮縣瑞穗鄉特產為鶴岡文旦及天鶴茶",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 200,
+    "question": "花蓮縣鳳林鎮特產為剝皮辣椒",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 201,
+    "question": "花蓮縣壽豐鄉特產為甘蔗及文旦",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 202,
+    "question": "花蓮縣吉安鄉特產為韭菜、龍鬚菜及芋頭",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 203,
+    "question": "花蓮縣新城鄉特產為酸菜及地瓜",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 204,
+    "question": "花蓮縣光復鄉特產為甘蔗及馬太鞍米",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 205,
+    "question": "臺東縣太麻里鄉特產為金針花及釋迦",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 206,
+    "question": "臺東縣卑南鄉特產為釋迦及茶葉",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 207,
+    "question": "臺東縣鹿野鄉特產為鹿野茶及福鹿茶",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 208,
+    "question": "臺東縣關山鎮特產為關山米及草莓",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 209,
+    "question": "臺東縣池上鄉特產為池上米及蠶絲",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 210,
+    "question": "臺東縣成功鎮特產為旗魚及柴魚",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 211,
+    "question": "臺東縣東河鄉特產為東河包子及文旦",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 212,
+    "question": "臺東縣長濱鄉特產為長濱米及海產",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 213,
+    "question": "臺東縣大武鄉特產為大武油魚及海產",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 214,
+    "question": "臺東縣蘭嶼鄉特產為飛魚及芋頭",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 215,
+    "question": "臺東縣綠島鄉特產為鹿肉乾及海鮮",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "1"
+  },
+  {
+    "id": 216,
+    "question": "目前臺東縣計程車起跳運價為150元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 217,
+    "question": "目前臺東縣計程車起跳運價（100元）之基本里程為1.25公里",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 218,
+    "question": "目前臺東縣計程車續跳里程（5元）為每250公尺",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 219,
+    "question": "目前臺東縣計程車延滯計時（5元）為車速5公里以下每100秒",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 220,
+    "question": "目前臺東縣計程車夜間加成（23時至次日6時止）依跳表再加收30元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  },
+  {
+    "id": 221,
+    "question": "目前臺東縣計程車春節加成運價為依跳表金額再加收100元",
+    "options": {
+      "1": "是",
+      "2": "否"
+    },
+    "correct_answer": "2"
+  }
+]

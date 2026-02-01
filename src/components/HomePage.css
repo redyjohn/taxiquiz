@@ -150,20 +150,6 @@
   font-size: 1rem;
 }
 
-.region-group .simulation-button {
-  min-width: 200px;
-  padding: 1rem 1.5rem;
-  font-size: 1.1rem;
-  background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
-  border: 2px solid #FFB800;
-}
-
-.region-group .simulation-button:hover,
-.region-group .simulation-button.active {
-  background: linear-gradient(135deg, #FFB800 0%, #F59E0B 100%);
-  color: #0F172A;
-}
-
 .start-section {
   text-align: center;
   margin-top: 3rem;

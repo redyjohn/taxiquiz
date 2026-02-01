@@ -14,7 +14,8 @@ const examDistricts = {
   '雲嘉區': ['雲林縣', '嘉義縣', '嘉義市'],
   '台南區': ['台南市', '嘉義縣', '嘉義市', '高雄市'],
   '花蓮區': ['花蓮縣', '台東縣', '宜蘭縣'],
-  '台東區': ['台東縣']
+  '台東區': ['台東縣'],
+  '外離島': ['金門縣', '連江縣', '澎湖縣']
 }
 
 function HomePage({ onStartQuiz, onBack }) {
@@ -97,12 +98,6 @@ function HomePage({ onStartQuiz, onBack }) {
     setSelectedRegion(region)
     setSelectedType(null)
     setSelectedRange(null)
-    
-    // 如果選擇「考區綜合模擬測驗」，自動設置類型和範圍
-    if (region === '考區綜合模擬測驗') {
-      setSelectedType('考區模擬測驗')
-      setSelectedRange({ start: 1, end: 50, label: '隨機 50 題（選擇 25 + 是非 25）' })
-    }
   }
 
   const handleTypeSelect = (type) => {
@@ -116,20 +111,12 @@ function HomePage({ onStartQuiz, onBack }) {
 
   const handleStart = () => {
     if (selectedCategory && selectedType && selectedRange) {
-      const quizConfig = {
+      onStartQuiz({
         category: selectedCategory,
         type: selectedType,
         region: selectedRegion || "",
         range: selectedRange
-      }
-      
-      // 如果是考區綜合模擬測驗，傳遞考區資訊
-      if (selectedRegion === '考區綜合模擬測驗' && selectedExamDistrict) {
-        quizConfig.examDistrict = selectedExamDistrict
-        quizConfig.examDistrictRegions = examDistricts[selectedExamDistrict]
-      }
-      
-      onStartQuiz(quizConfig)
+      })
     }
   }
 
@@ -176,14 +163,6 @@ function HomePage({ onStartQuiz, onBack }) {
       <div className="selection-step">
         <h3>三、選擇地區</h3>
         <div className="button-group region-group">
-          {/* 考區綜合模擬測驗選項 */}
-          <button
-            className={`selection-button simulation-button ${selectedRegion === '考區綜合模擬測驗' ? 'active' : ''}`}
-            onClick={() => handleRegionSelect('考區綜合模擬測驗')}
-          >
-            🎯 考區綜合模擬測驗
-          </button>
-          {/* 各地區選項 */}
           {regions.map(region => (
             <button
               key={region}
@@ -200,9 +179,6 @@ function HomePage({ onStartQuiz, onBack }) {
 
   const renderTypes = () => {
     if (!selectedCategory || selectedRegion === null) return null
-    
-    // 如果選擇「考區綜合模擬測驗」，不顯示題型選擇
-    if (selectedRegion === '考區綜合模擬測驗') return null
 
     const types = getTypesForRegion(selectedCategory, selectedRegion)
     const stepNumber = selectedRegion === "" ? "二" : "四"
@@ -227,9 +203,6 @@ function HomePage({ onStartQuiz, onBack }) {
 
   const renderRanges = () => {
     if (!selectedCategory || !selectedType || selectedRegion === null) return null
-    
-    // 如果選擇「考區綜合模擬測驗」，不顯示範圍選擇
-    if (selectedRegion === '考區綜合模擬測驗') return null
 
     const targetRegion = selectedRegion
     const ranges = questionStructure[selectedCategory][selectedType][targetRegion]

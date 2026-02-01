@@ -88,50 +88,6 @@ function QuizPage({ quizConfig, onBack }) {
     }))
   }
 
-  // 考區綜合模擬測驗：從考區內各地區的選擇題+是非題隨機抽題
-  const buildExamDistrictSimulationQuestions = async (regions) => {
-    // 載入考區內所有地區的選擇題和是非題
-    const mcPaths = regions.map(region => getQuestionBankPath('地理', '選擇題', region))
-    const tfPaths = regions.map(region => getQuestionBankPath('地理', '是非題', region))
-
-    // 載入所有題庫（忽略載入失敗的）
-    const loadWithFallback = async (path) => {
-      try {
-        return await loadQuestionBank(path)
-      } catch {
-        return { questions: [] }
-      }
-    }
-
-    const [mcBanks, tfBanks] = await Promise.all([
-      Promise.all(mcPaths.map(loadWithFallback)),
-      Promise.all(tfPaths.map(loadWithFallback))
-    ])
-
-    // 合併所有選擇題和是非題（過濾掉空題庫）
-    const allMcQuestions = mcBanks.flatMap(bank => bank.questions || [])
-    const allTfQuestions = tfBanks.flatMap(bank => bank.questions || [])
-
-    const mcCount = 25
-    const tfCount = 25
-
-    // 需求：1-25 題固定為選擇題、26-50 題固定為是非題（各自隨機抽題/打亂）
-    const sampledMc = shuffleQuestions(allMcQuestions)
-      .slice(0, Math.min(mcCount, allMcQuestions.length))
-      .map((q) => ({ ...q, _source: '選擇題' }))
-    const sampledTf = shuffleQuestions(allTfQuestions)
-      .slice(0, Math.min(tfCount, allTfQuestions.length))
-      .map((q) => ({ ...q, _source: '是非題' }))
-
-    const merged = [...sampledMc, ...sampledTf]
-
-    // 重新編號，避免不同題庫 id 衝突（答案紀錄用 id 當 key）
-    return merged.map((q, idx) => ({
-      ...q,
-      id: idx + 1
-    }))
-  }
-
   const loadQuestions = async () => {
     try {
       setLoading(true)
@@ -148,14 +104,6 @@ function QuizPage({ quizConfig, onBack }) {
       // 地理 -> 模擬測驗：從三個地區隨機抽 25 選擇 + 25 是非（共 50 題）
       if (quizConfig.category === '地理' && quizConfig.type === '模擬測驗') {
         const simulated = await buildSimulatedGeographyQuestions()
-        setQuestions(simulated)
-        setLoading(false)
-        return
-      }
-
-      // 考區綜合模擬測驗：從考區內各地區隨機抽 25 選擇 + 25 是非（共 50 題）
-      if (quizConfig.type === '考區模擬測驗' && quizConfig.examDistrictRegions) {
-        const simulated = await buildExamDistrictSimulationQuestions(quizConfig.examDistrictRegions)
         setQuestions(simulated)
         setLoading(false)
         return
