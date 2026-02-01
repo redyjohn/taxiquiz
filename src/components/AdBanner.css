@@ -1,6 +1,7 @@
 .ad-banner {
   width: 100%;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  padding: 1rem 0;
   position: relative;
   background: #1E293B;
   border: 1px solid rgba(255, 184, 0, 0.2);
@@ -110,7 +111,8 @@
 
 @media (max-width: 768px) {
   .ad-banner {
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
+    padding: 0.75rem 0;
   }
 
   .ad-horizontal,

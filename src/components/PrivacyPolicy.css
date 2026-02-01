@@ -1,0 +1,95 @@
+.privacy-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  color: #F8FAFC;
+  padding-bottom: 2rem;
+}
+
+.privacy-header {
+  background: #1E293B;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid rgba(255, 184, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.privacy-header .back-link {
+  display: inline-block;
+  color: #FFB800;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+
+.privacy-header .back-link:hover {
+  color: #FFC700;
+}
+
+.privacy-header h1 {
+  font-size: 2rem;
+  color: #FFB800;
+  font-weight: 700;
+  margin: 0 0 0.25rem 0;
+}
+
+.privacy-header .last-updated {
+  font-size: 0.9rem;
+  color: rgba(248, 250, 252, 0.7);
+  margin: 0;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.privacy-content section {
+  margin-bottom: 2rem;
+}
+
+.privacy-content h2 {
+  font-size: 1.3rem;
+  color: #FFB800;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.privacy-content p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #E2E8F0;
+}
+
+.privacy-content ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.privacy-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.privacy-content a {
+  color: #60A5FA;
+  text-decoration: underline;
+}
+
+.privacy-content a:hover {
+  color: #93C5FD;
+}
+
+@media (max-width: 768px) {
+  .privacy-header,
+  .privacy-content {
+    padding: 1rem;
+  }
+
+  .privacy-header h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,45 +1,58 @@
-import { useState } from 'react'
+import { Routes, Route, useNavigate, useLocation, Navigate } from 'react-router-dom'
 import WelcomePage from './components/WelcomePage'
 import HomePage from './components/HomePage'
 import GuidePage from './components/GuidePage'
 import NoticePage from './components/NoticePage'
+import ArticleContent from './components/ArticleContent'
 import QuizPage from './components/QuizPage'
+import PrivacyPolicy from './components/PrivacyPolicy'
+import AboutPage from './components/AboutPage'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('welcome')
-  const [quizConfig, setQuizConfig] = useState(null)
-
-  const handleNavigate = (page) => {
-    setCurrentPage(page)
-  }
-
-  const handleStartQuiz = (config) => {
-    setQuizConfig(config)
-    setCurrentPage('quiz')
-  }
-
-  const handleBack = () => {
-    setCurrentPage('practice')
-    setQuizConfig(null)
-  }
-
-  const handleBackToWelcome = () => {
-    setCurrentPage('welcome')
-    setQuizConfig(null)
-  }
+  const navigate = useNavigate()
 
   return (
     <div className="App">
-      {currentPage === 'welcome' && <WelcomePage onNavigate={handleNavigate} />}
-      {currentPage === 'practice' && <HomePage onStartQuiz={handleStartQuiz} onBack={handleBackToWelcome} />}
-      {currentPage === 'guide' && <GuidePage onBack={handleBackToWelcome} />}
-      {currentPage === 'notice' && <NoticePage onBack={handleBackToWelcome} />}
-      {currentPage === 'quiz' && quizConfig && (
-        <QuizPage quizConfig={quizConfig} onBack={handleBack} />
-      )}
+      <div className="app-content">
+        <Routes>
+          <Route path="/" element={
+            <WelcomePage onNavigate={(page) => navigate(page === 'welcome' ? '/' : `/${page}`)} />
+          } />
+          <Route path="/practice" element={
+            <HomePage
+              onStartQuiz={(config) => navigate('/quiz', { state: { config } })}
+              onBack={() => navigate('/')}
+            />
+          } />
+          <Route path="/read" element={
+            <GuidePage onBack={() => navigate('/')} />
+          } />
+          <Route path="/guide" element={<NoticePage />} />
+          <Route path="/guide/:slug" element={<ArticleContent />} />
+          <Route path="/notice" element={<Navigate to="/guide" replace />} />
+          <Route path="/quiz" element={
+            <QuizPageWrapper onBack={() => navigate('/practice')} />
+          } />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/about" element={<AboutPage />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
   )
+}
+
+function QuizPageWrapper({ onBack }) {
+  const location = useLocation()
+  const quizConfig = location?.state?.config
+
+  if (!quizConfig) {
+    return <Navigate to="/" replace />
+  }
+
+  return <QuizPage quizConfig={quizConfig} onBack={onBack} />
 }
 
 export default App

@@ -5,84 +5,127 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 2rem;
 }
 
 .welcome-header {
   text-align: center;
-  margin-bottom: 4rem;
+  width: 100%;
+  max-width: 900px;
 }
 
-.welcome-header h1 {
+.site-branding {
   font-size: 3rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
   color: #FFB800;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.welcome-header > p {
-  font-size: 1.3rem;
+.welcome-subtitle {
+  font-size: 1.2rem;
   opacity: 0.9;
-  margin: 0;
+  margin: 0 0 2rem 0;
 }
 
-.disclaimer {
-  margin-top: 1.5rem;
-  padding: 1rem 1.5rem;
-  background: rgba(255, 184, 0, 0.2);
-  border: 1px solid rgba(255, 184, 0, 0.5);
+/* 專業文案區（廣告上方） */
+.guide-article {
+  max-width: 750px;
+  margin: 0 auto 2.5rem;
+  padding: 2rem 1.75rem;
+  background: rgba(30, 41, 59, 0.6);
   border-radius: 12px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  border: 1px solid rgba(255, 184, 0, 0.2);
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 40px;
 }
 
-.disclaimer p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0;
-  opacity: 0.9;
-}
-
-.disclaimer a {
+.guide-article h1 {
+  font-size: 1.5rem;
   color: #FFB800;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  margin: 0 0 1.25rem 0;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
-.disclaimer a:hover {
-  color: #FFC700;
-  text-decoration: underline;
-}
-
-.contact-email {
-  margin-top: 0.75rem !important;
-  font-weight: 500;
-}
-
-.contact-email a {
+.guide-article h3 {
+  font-size: 1.2rem;
+  color: #FFB800;
+  margin: 1.5rem 0 0.75rem 0;
   font-weight: 600;
 }
 
-.welcome-content {
-  width: 100%;
-  max-width: 900px;
+.guide-article p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin: 0 0 1rem 0;
+  color: #E2E8F0;
+}
+
+.guide-article p:last-of-type {
+  margin-bottom: 0;
+}
+
+.guide-article strong {
+  color: #FFB800;
+  font-weight: 600;
+}
+
+.guide-article a {
+  color: #FFB800;
+  text-decoration: none;
+}
+
+.guide-article a:hover {
+  text-decoration: underline;
+}
+
+.guide-cta {
+  margin-top: 1.5rem !important;
+  font-size: 1.05rem !important;
+  color: #FFB800 !important;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* 廣告：文字介紹與功能區之間 */
+.welcome-ad-top {
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+}
+
+.welcome-ad-banner {
+  margin: 0 auto;
+}
+
+/* 功能按鈕區（與文案區有明顯視覺間隔） */
+.function-section {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+.function-section h2 {
+  font-size: 1.4rem;
+  color: #FFB800;
+  margin: 0 0 1.5rem 0;
+  font-weight: 700;
+  text-align: center;
 }
 
 .welcome-buttons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  width: 100%;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .welcome-button {
   background: #1E293B;
   border: 2px solid rgba(255, 184, 0, 0.3);
   border-radius: 16px;
-  padding: 2.5rem 2rem;
+  padding: 2.25rem 1.75rem;
   color: #F8FAFC;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -91,7 +134,7 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  min-height: 200px;
+  min-height: 180px;
   justify-content: center;
 }
 
@@ -107,73 +150,160 @@
 }
 
 .button-icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.75rem;
   line-height: 1;
 }
 
-.button-content h2 {
-  font-size: 1.8rem;
+.button-content h3 {
+  font-size: 1.5rem;
   margin: 0 0 0.5rem 0;
   color: #FFB800;
   font-weight: 700;
 }
 
 .button-content p {
-  font-size: 1rem;
-  opacity: 0.8;
+  font-size: 0.95rem;
+  opacity: 0.85;
   margin: 0;
   line-height: 1.5;
 }
 
-.guide-button:hover .button-content h2,
-.practice-button:hover .button-content h2,
-.notice-button:hover .button-content h2 {
+.guide-button:hover .button-content h3,
+.guide-encyclopedia-button:hover .button-content h3,
+.practice-button:hover .button-content h3 {
   color: #FFC700;
 }
 
+/* 最新考訊與新手攻略（功能區下方） */
+.guides-section {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.guides-section h2 {
+  font-size: 1.4rem;
+  color: #FFB800;
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.guides-desc {
+  font-size: 0.95rem;
+  color: rgba(248, 250, 252, 0.8);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.guide-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.guide-card {
+  background: #1E293B;
+  border: 2px solid rgba(255, 184, 0, 0.3);
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  display: block;
+  text-align: left;
+}
+
+.guide-card:hover {
+  border-color: #FFB800;
+  background: rgba(255, 184, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.guide-card h3 {
+  font-size: 1.05rem;
+  color: #FFB800;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.guide-card p {
+  font-size: 0.9rem;
+  color: #E2E8F0;
+  line-height: 1.6;
+  margin: 0 0 0.75rem 0;
+}
+
+.guide-read-more {
+  font-size: 0.9rem;
+  color: #60A5FA;
+  font-weight: 500;
+}
+
+.guide-card:hover .guide-read-more {
+  text-decoration: underline;
+}
+
+/* 廣告：頁面最底部 */
+.welcome-ad-bottom {
+  margin: 2rem auto 1rem;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .welcome-header h1 {
+  .site-branding {
     font-size: 2rem;
   }
 
-  .welcome-header > p {
+  .welcome-subtitle {
+    font-size: 1rem;
+  }
+
+  .guide-article {
+    padding: 1.25rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .guide-article h1 {
+    font-size: 1.25rem;
+  }
+
+  .guide-article h3 {
     font-size: 1.1rem;
   }
 
-  .disclaimer {
-    padding: 0.75rem 1rem;
-    margin-top: 1rem;
+  .guide-article p {
+    font-size: 0.9rem;
+    line-height: 1.65;
   }
 
-  .disclaimer p {
-    font-size: 0.85rem;
+  .function-section h2 {
+    font-size: 1.2rem;
   }
 
   .welcome-buttons {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 
   .welcome-button {
-    padding: 2rem 1.5rem;
-    min-height: 160px;
+    padding: 1.75rem 1.5rem;
+    min-height: 150px;
   }
 
   .button-icon {
     font-size: 3rem;
-    margin-bottom: 0.75rem;
   }
 
-  .button-content h2 {
-    font-size: 1.5rem;
+  .button-content h3 {
+    font-size: 1.35rem;
   }
 
-  .button-content p {
-    font-size: 0.9rem;
+  .guide-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .guides-section h2 {
+    font-size: 1.2rem;
   }
 }
-
-
-
-
