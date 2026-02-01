@@ -1,9 +1,52 @@
-import { useState } from 'react'
+import { useState, Fragment } from 'react'
 import './NoticePage.css'
 
 const noticeItems = [
   {
     id: 1,
+    title: '如何一次考上營業登記',
+    content: `其實考計程車營業登記是一個小困難的過程，但我認為考試最困難的並不是題目本身，而是到底要考什麼?要怎麼考?
+
+**詳細流程請參考：[什麼是計程車營業登記?](article:4)**
+
+扣除建構網站跟了解流程部分，我大概用兩週積極刷題，就考過了，以下是我的心得分享，希望可以大大提高大家的合格率：
+
+## 1. 選擇題題目請盡量用諧音記法
+
+**例如法規：**
+公共汽車招呼站多少公尺內不得臨時停車?(1)5公尺(2)10公尺(3)15公尺。正確答案是(2)10公尺
+我就會用「臨10停車」去記答案
+
+**例如地理：**
+二水鄉公所位於二水鄉哪條路上？A. 二水街 B. 南通路 C. 中山路。正確答案是 B. 南通路
+我就會用「惡(二)水難(南)通」去記答案
+
+題目本身不會改內容，但有可能會改順序，所以記題目，不要記選項。
+
+## 2. 是非題部分
+
+只看正確題目，錯誤題目一率跳過，千萬不要讓錯誤題目留在你的腦海裡。只要你看到有印象的題目就選是，完全沒印象的就選否，大概也可以達到80分以上。
+
+## 3. 最重要但是我考前不知道的——出題是有比例的！
+
+這次考試前有跟監考人員確認考試範圍，因為很怕背錯範圍。例如我這次是中彰投考區，我就去問監考人員說「我的准考證上面沒有寫我是哪一個營業區域，會不會考到苗栗地區?」（因為台中營業區域是中彰投苗）
+
+承辦人回覆我說「這個考區就只考中彰投地區的題庫，台中比例最高」。
+
+所以～先問一下你要考的地區，它的正確考試範圍，不要多花時間準備錯方向，然後有沒有比重較重的區域，如果時間不夠可以優先準備比重重的地方。
+
+## 我給大家的建議是
+
+1. **法規先優先讀完**，題目是固定的
+
+2. **先讀選擇題再讀是非題**，選擇題比較好記，有很多諧音可以使用
+
+3. **是非題只看正確的**，不要對錯都看，看越多越混淆
+
+### 最後祝大家金榜題名！`
+  },
+  {
+    id: 2,
     title: '計程車司機需要具備什麼資格?',
     content: `要成為計程車司機，主要需要具備小型車職業駕照和計程車執業登記證兩大證照，並滿足年齡、駕照持有時間、品行良好等資格，且完成靠行掛牌才能正式上路載客營業。整體流程包含先考職業駕照，再考執業登記證，最後掛牌。
 
@@ -50,7 +93,7 @@ const noticeItems = [
 **查詢：** 若對自身資格有疑慮，可至當地交通警察大隊查詢。`
   },
   {
-    id: 2,
+    id: 3,
     title: '什麼是職業小客車駕照?',
     content: `職業小客車駕照（也稱職業小型車駕照，或簡稱職小）是台灣交通部公路局核發的職業汽車駕駛執照之一，主要用於以駕駛小客車為職業（如計程車、Uber、多元化計程車等營業用途）。它與普通小型車駕照（自用小客車駕照）最大的差別在於：
 
@@ -135,7 +178,7 @@ const noticeItems = [
 最新資訊請以交通部公路局監理服務網（https://www.mvdis.gov.tw）或各地監理所公告為準，規定可能隨年度微調。祝你順利考取！🚕`
   },
   {
-    id: 3,
+    id: 4,
     title: '什麼是計程車營業登記?',
     content: `計程車執業登記證（簡稱執業登記證）是由警察機關（各直轄市/縣市警察局）核發的證照，專門用於計程車營業載客。它與職業小客車駕照（職小）不同：
 
@@ -220,7 +263,7 @@ const noticeItems = [
 考取後就能正式當計程車司機，時間自由、收入可觀！如果有特定地區（如台北、新北），可以再提供更精確資訊。加油！🚕`
   },
   {
-    id: 4,
+    id: 5,
     title: '計程車司機收入分析',
     content: `台灣計程車司機收入差異很大，主要取決於專職/兼職、地區、車隊類型（傳統小黃 vs 多元化計程車）、工作時數、是否加入派遣車隊、個人努力程度（如專跑機場、熱門區域）等因素。以下根據交通部公路局2023年（民國112年）計程車營運狀況調查（最新官方統計，2024年11月公布）及相關報導進行分析。2025年目前無新官方統計，但費率微調與經濟環境下，收入大致維持或略增（通膨影響）。
 
@@ -299,7 +342,7 @@ const noticeItems = [
 **最新資訊：** 以交通部公路局（https://www.thb.gov.tw）或警政署計程車服務網為準，規定可能微調。`
   },
   {
-    id: 5,
+    id: 6,
     title: '台灣Uber司機比較',
     content: `台灣 Uber 司機比較分析（2025年最新數據）
 
@@ -455,6 +498,50 @@ function NoticePage({ onBack }) {
   const currentItem = noticeItems.find(item => item.id === selectedId)
   const currentIndex = selectedId !== null ? noticeItems.findIndex(item => item.id === selectedId) : -1
 
+  // 點擊內部連結時跳轉至指定文章
+  const handleArticleLinkClick = (articleId) => {
+    setSelectedId(articleId)
+    // 捲動至內容區頂部，讓使用者清楚看到已切換文章
+    setTimeout(() => {
+      const el = document.querySelector('.notice-detail .detail-content')
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 50)
+  }
+
+  // 將文字中的 [連結文字](article:id) 轉為可點擊連結（支援全形括號）
+  const renderInlineContent = (text) => {
+    const linkRegex = /[\[［]([^\]］]+)[\]］][\(（]article:(\d+)[\)）]/g
+    const parts = []
+    let lastIndex = 0
+    let match
+    let partKey = 0
+    while ((match = linkRegex.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        parts.push(text.slice(lastIndex, match.index))
+      }
+      const targetId = Number(match[2])
+      parts.push(
+        <button
+          key={`link-${partKey++}`}
+          type="button"
+          className="content-internal-link"
+          onClick={(e) => {
+            e.preventDefault()
+            e.stopPropagation()
+            handleArticleLinkClick(targetId)
+          }}
+        >
+          {match[1]}
+        </button>
+      )
+      lastIndex = match.index + match[0].length
+    }
+    if (lastIndex < text.length) {
+      parts.push(text.slice(lastIndex))
+    }
+    return parts.length > 0 ? parts : [text]
+  }
+
   // 格式化內容（將 Markdown 風格的標題轉換為 HTML）
   const formatContent = (content) => {
     const lines = content.split('\n')
@@ -469,9 +556,10 @@ function NoticePage({ onBack }) {
         const parts = text.split(/(\*\*.*?\*\*)/g)
         const formattedParts = parts.map((part, idx) => {
           if (part.startsWith('**') && part.endsWith('**')) {
-            return <strong key={idx}>{part.replace(/\*\*/g, '')}</strong>
+            const innerText = part.replace(/\*\*/g, '')
+            return <strong key={idx}>{renderInlineContent(innerText)}</strong>
           }
-          return part
+          return <Fragment key={idx}>{renderInlineContent(part)}</Fragment>
         })
         result.push(<p key={keyIndex++} className="content-paragraph">{formattedParts}</p>)
         currentParagraph = []
@@ -484,6 +572,9 @@ function NoticePage({ onBack }) {
       if (trimmedLine.startsWith('## ')) {
         flushParagraph()
         result.push(<h3 key={keyIndex++} className="content-subtitle">{trimmedLine.replace('## ', '')}</h3>)
+      } else if (trimmedLine.startsWith('### ')) {
+        flushParagraph()
+        result.push(<p key={keyIndex++} className="content-blessing">{trimmedLine.replace('### ', '')}</p>)
       } else if (trimmedLine === '') {
         flushParagraph()
         result.push(<br key={keyIndex++} />)

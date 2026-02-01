@@ -202,6 +202,34 @@
   font-weight: 600;
 }
 
+/* 內部文章連結（可跳轉到其他考試注意事項） */
+.content-internal-link {
+  background: none;
+  border: none;
+  color: #60A5FA;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  transition: color 0.2s ease;
+}
+
+.content-internal-link:hover {
+  color: #93C5FD;
+}
+
+/* 結尾祝福語：字體放大、醒目顏色 */
+.content-blessing {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFB800;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  padding: 1rem;
+  text-shadow: 0 0 12px rgba(255, 184, 0, 0.4);
+}
+
 .detail-navigation {
   display: flex;
   gap: 1rem;
@@ -295,6 +323,10 @@
   .content-paragraph {
     font-size: 0.95rem;
     margin: 0.75rem 0;
+  }
+
+  .content-blessing {
+    font-size: 1.3rem;
   }
 
   .detail-navigation {

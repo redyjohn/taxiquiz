@@ -88,6 +88,36 @@ function QuizPage({ quizConfig, onBack }) {
     }))
   }
 
+  // 縣市綜合測驗：從單一縣市隨機抽 50 選擇 + 50 是非（共 100 題）
+  const buildCityComprehensiveQuestions = async (region) => {
+    const mcPath = getQuestionBankPath('地理', '選擇題', region)
+    const tfPath = getQuestionBankPath('地理', '是非題', region)
+
+    const [mcBank, tfBank] = await Promise.all([
+      loadQuestionBank(mcPath),
+      loadQuestionBank(tfPath)
+    ])
+
+    const mcCount = 50
+    const tfCount = 50
+
+    // 1-50 題固定為選擇題、51-100 題固定為是非題（各自隨機抽題/打亂）
+    const sampledMc = shuffleQuestions(mcBank.questions)
+      .slice(0, Math.min(mcCount, mcBank.questions.length))
+      .map((q) => ({ ...q, _source: '選擇題' }))
+    const sampledTf = shuffleQuestions(tfBank.questions)
+      .slice(0, Math.min(tfCount, tfBank.questions.length))
+      .map((q) => ({ ...q, _source: '是非題' }))
+
+    const merged = [...sampledMc, ...sampledTf]
+
+    // 重新編號，避免不同題庫 id 衝突
+    return merged.map((q, idx) => ({
+      ...q,
+      id: idx + 1
+    }))
+  }
+
   const loadQuestions = async () => {
     try {
       setLoading(true)
@@ -104,6 +134,14 @@ function QuizPage({ quizConfig, onBack }) {
       // 地理 -> 模擬測驗：從三個地區隨機抽 25 選擇 + 25 是非（共 50 題）
       if (quizConfig.category === '地理' && quizConfig.type === '模擬測驗') {
         const simulated = await buildSimulatedGeographyQuestions()
+        setQuestions(simulated)
+        setLoading(false)
+        return
+      }
+
+      // 地理 -> 縣市綜合測驗：從單一縣市隨機抽 50 選擇 + 50 是非（共 100 題）
+      if (quizConfig.category === '地理' && quizConfig.type === '縣市綜合測驗') {
+        const simulated = await buildCityComprehensiveQuestions(quizConfig.region)
         setQuestions(simulated)
         setLoading(false)
         return

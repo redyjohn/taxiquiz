@@ -102,7 +102,13 @@ function HomePage({ onStartQuiz, onBack }) {
 
   const handleTypeSelect = (type) => {
     setSelectedType(type)
-    setSelectedRange(null)
+    
+    // 如果選擇「縣市綜合測驗」，自動設定特殊 range（跳過範圍選擇）
+    if (type === '縣市綜合測驗') {
+      setSelectedRange({ start: 1, end: 100, label: '綜合測驗' })
+    } else {
+      setSelectedRange(null)
+    }
   }
 
   const handleRangeSelect = (range) => {
@@ -183,11 +189,16 @@ function HomePage({ onStartQuiz, onBack }) {
     const types = getTypesForRegion(selectedCategory, selectedRegion)
     const stepNumber = selectedRegion === "" ? "二" : "四"
 
+    // 地理類別且有選擇地區時，加入「縣市綜合測驗」選項
+    const displayTypes = selectedCategory === '地理' && selectedRegion !== "" 
+      ? [...types, '縣市綜合測驗'] 
+      : types
+
     return (
       <div className="selection-step">
         <h3>{stepNumber}、選擇題型</h3>
         <div className="button-group">
-          {types.map(type => (
+          {displayTypes.map(type => (
             <button
               key={type}
               className={`selection-button type-button ${selectedType === type ? 'active' : ''}`}
@@ -203,6 +214,9 @@ function HomePage({ onStartQuiz, onBack }) {
 
   const renderRanges = () => {
     if (!selectedCategory || !selectedType || selectedRegion === null) return null
+
+    // 「縣市綜合測驗」跳過範圍選擇
+    if (selectedType === '縣市綜合測驗') return null
 
     const targetRegion = selectedRegion
     const ranges = questionStructure[selectedCategory][selectedType][targetRegion]
