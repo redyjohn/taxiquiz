@@ -90,8 +90,8 @@ function WelcomePage({ onNavigate }) {
         </section>
 
         <section className="guides-section">
-          <h2>最新考訊與新手攻略</h2>
-          <p className="guides-desc">精選考照百科中心文章，協助您掌握考情與準備技巧</p>
+          <h2>新手攻略</h2>
+          <p className="guides-desc">精選考照百科中心 6 篇文章，協助您掌握考情與準備技巧</p>
           <div className="guide-cards">
             {allArticles.map((article) => (
               <Link

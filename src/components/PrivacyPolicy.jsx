@@ -7,7 +7,7 @@ function PrivacyPolicy() {
       <header className="privacy-header">
         <Link to="/" className="back-link">← 返回首頁</Link>
         <h1>隱私權聲明</h1>
-        <p className="last-updated">最後更新：2025年1月</p>
+        <p className="last-updated">最後更新：2026年2月</p>
       </header>
 
       <div className="privacy-content">
